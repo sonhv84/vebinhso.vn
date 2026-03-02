@@ -1,0 +1,156 @@
+/* ================= SECTION ================= */
+.report-section {
+  padding: 4rem 1rem;
+}
+
+/* ================= FORM CARD ================= */
+.report-form {
+  max-width: 1200px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 3rem;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.08);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #dc2626;
+  margin-bottom: 0.5rem;
+}
+
+.form-subtitle {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
+}
+
+/* ================= FORM GRID ================= */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+/* ================= INPUT ================= */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.2s;
+  background: #ffffff;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+/* ================= UPLOAD (FIX CHUẨN) ================= */
+.upload-box {
+  display: flex; /* QUAN TRỌNG */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  min-height: 180px; /* QUAN TRỌNG */
+
+  border: 2px dashed #cbd5e1;
+  border-radius: 14px;
+  padding: 2rem 1.5rem;
+
+  text-align: center;
+  cursor: pointer;
+  color: #475569;
+  background: #ffffff;
+
+  transition: all 0.25s ease;
+}
+
+.upload-box i {
+  font-size: 2.4rem;
+  color: #2563eb;
+  margin-bottom: 0.75rem;
+}
+
+.upload-box strong {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.upload-box p {
+  font-size: 0.875rem;
+  color: #64748b;
+  max-width: 420px;
+  line-height: 1.4;
+}
+
+.upload-box:hover {
+  background: #f8fafc;
+  border-color: #2563eb;
+}
+
+.upload-box.active {
+  background: #f0fdf4;
+  border-color: #16a34a;
+}
+
+/* ================= BUTTON ================= */
+.submit-btn {
+  margin-top: 2rem;
+  width: 100%;
+  background: #dc2626;
+  color: #ffffff;
+  border: none;
+  padding: 18px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: 0.25s;
+  box-shadow: 0 10px 25px rgba(220, 38, 38, 0.35);
+}
+
+.submit-btn:hover {
+  background: #b91c1c;
+  transform: translateY(-2px);
+}
+
+.form-note {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .report-form {
+    padding: 2rem 1.5rem;
+  }
+}

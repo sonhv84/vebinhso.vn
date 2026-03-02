@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Báo Cáo Thủ Đoạn Lừa Đảo | Vệ Binh Số</title>
+  <meta name="description"
+    content="Vệ Binh Số là nền tảng tuyên truyền, cảnh báo và phòng chống lừa đảo trên không gian mạng, giúp người dùng nhận diện và tránh các thủ đoạn lừa đảo trực tuyến.">
+
+  <link rel="icon" href="/assets/icons/logo_header.ico">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  <div id="header"></div>
+  <div class="container">
+    <section class="report-section">
+      <form class="report-form" id="scamReportForm">
+
+        <h1 class="form-title">Báo Cáo Thủ Đoạn Mới</h1>
+        <p class="form-subtitle">
+          Chung tay cùng cộng đồng cảnh báo và ngăn chặn tội phạm lừa đảo trên không gian mạng
+        </p>
+
+        <!-- Họ tên + Đối tượng -->
+        <div class="form-row">
+          <input type="text" name="reporterName" placeholder="Họ và tên (có thể để trống nếu ẩn danh)"
+            maxlength="100" />
+
+          <input type="text" name="scammerContact" placeholder="Số điện thoại / Link / Tài khoản lừa đảo *" required />
+        </div>
+
+        <!-- Loại lừa đảo -->
+        <div class="form-group">
+          <select name="scamType" required>
+            <option value="">Chọn loại hình lừa đảo *</option>
+            <option>Giả danh công an / tòa án</option>
+            <option>Chiếm đoạt tài khoản mạng xã hội</option>
+            <option>Lừa đảo đầu tư / tiền ảo</option>
+            <option>Việc nhẹ lương cao</option>
+            <option>Gọi điện trúng thưởng</option>
+            <option>Mạo danh ngân hàng / ví điện tử</option>
+            <option>Khác</option>
+          </select>
+        </div>
+
+        <!-- Mô tả -->
+        <div class="form-group">
+          <textarea name="description"
+            placeholder="Mô tả chi tiết thủ đoạn: cách tiếp cận, nội dung trao đổi, thời điểm, dấu hiệu bất thường..."
+            required></textarea>
+        </div>
+
+        <!-- Upload -->
+        <label class="upload-box" id="uploadBox">
+          <input type="file" name="evidence" id="evidence" accept="image/*,audio/*" multiple hidden />
+
+          <i class="fas fa-cloud-upload-alt"></i>
+          <strong>Tải lên bằng chứng</strong>
+
+          <p id="fileName">
+            (Ảnh chụp màn hình, ghi âm cuộc gọi, file liên quan)
+          </p>
+        </label>
+
+        <!-- Submit -->
+        <button type="submit" class="submit-btn">
+          GỬI BÁO CÁO NGAY
+        </button>
+
+        <p class="form-note">
+          Thông tin được sử dụng cho mục đích cảnh báo cộng đồng, không yêu cầu xác thực danh tính.
+        </p>
+
+      </form>
+    </section>
+  </div>
+  <div id="footer"></div>
+</body>
+
+<script src="/js/layout.js"></script>
+
+</html>

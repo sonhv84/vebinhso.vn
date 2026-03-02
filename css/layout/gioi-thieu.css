@@ -1,0 +1,190 @@
+   /* ================================
+   INTRO SECTION – BLUR BACKGROUND
+================================ */
+
+.intro-section {
+  position: relative;
+  padding: 5rem 0;
+  overflow: hidden;
+}
+
+/* Background image */
+.intro-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  /* xử lý lại phần ảnh này do lỗi chân footer */
+  background-image: url("/assets/images/logo/ban0ner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Làm mờ ảnh */
+  filter: blur(14px);
+  transform: scale(1.08); /* tránh viền trắng do blur */
+
+  /* Mờ dần từ trung tâm ra ngoài */
+  mask-image: radial-gradient(
+    circle at center,
+    transparent 0%,
+    rgba(0,0,0,0.25) 30%,
+    rgba(0,0,0,0.6) 55%,
+    rgba(0,0,0,1) 100%
+  );
+
+  -webkit-mask-image: radial-gradient(
+    circle at center,
+    transparent 0%,
+    rgba(0,0,0,0.25) 30%,
+    rgba(0,0,0,0.6) 55%,
+    rgba(0,0,0,1) 100%
+  );
+
+  z-index: 1;
+}
+
+/* Nội dung phía trên */
+.intro-container {
+  position: relative;
+  z-index: 2;
+}
+
+/* ================================
+   (OPTIONAL) demo text
+================================ */
+.intro-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.intro-container p {
+  max-width: 700px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+    .intro-container {
+      max-width: 80rem;
+      margin: auto;
+      padding: 0 16px;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    @media (min-width: 1024px) {
+      .intro-grid {
+        grid-template-columns: 1.2fr 0.8fr;
+      }
+    }
+
+    .intro-badge {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 12px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: #2563eb;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      margin-bottom: 1.5rem;
+      font-weight: 700;
+    }
+
+    .intro-title {
+      font-size: 3.2rem;
+      font-weight: 1000;
+      letter-spacing: -1.5px;
+      font-family: 'Times New Roman', Times, serif;
+      background: linear-gradient(90deg,   var(--text-main), #0f172a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1.5rem;
+    }
+
+    .intro-description {
+      font-size: 1.05rem;
+      color: #343941;
+      max-width: 620px;
+      margin-bottom: 2rem;
+    }
+
+    .feature-item {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .feature-item i {
+      color: #10b981;
+      font-size: 18px;
+    }
+
+    .intro-actions {
+      margin-top: 2rem;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      padding: 14px 28px;
+      border-radius: 10px;
+      font-weight: 800;
+      border: none;
+      cursor: pointer;
+      color: white;
+      background: linear-gradient(135deg, #2563eb, #1e40af);
+      box-shadow: 0 10px 30px rgba(37,99,235,.35);
+      transition: .3s;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      padding: 14px 28px;
+      border-radius: 10px;
+      font-weight: 700;
+      border: 1px solid #cbd5f5;
+      background: #f1f5f9;
+      cursor: pointer;
+    }
+
+    /* ===== STATS ===== */
+    .stats-card {
+      background: linear-gradient(160deg, #020617, #0f172a);
+      border-radius: 24px;
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+      box-shadow: 0 20px 40px rgba(15,23,42,.4);
+      border: 1px solid rgba(255,255,255,.08);
+    }
+
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 900;
+      color: white;
+      font-family: monospace;
+    }
+
+    .stat-label {
+      font-size: 13px;
+      text-transform: uppercase;
+      color: #94a3b8;
+    }

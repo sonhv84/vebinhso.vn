@@ -54,10 +54,10 @@
   font-weight: bold;
 }
 
-.navbar-menu a:hover {
+/* .navbar-menu a:hover {
   color: #2563eb;
   text-decoration: underline;
-}
+} */
 
 /* ===== BUTTON ===== */
 .report-btn {
@@ -176,5 +176,8 @@
   .navbar-action {
     margin-left: auto;
     margin-right: 10px;
+  }
+  #report-header {
+    display: none;
   }
 }
