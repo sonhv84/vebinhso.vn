@@ -195,7 +195,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     <div class="news-card__footer">
 
-                        <a href="/ki-nang-chi-tiet.html?id=${item.id}"
+                        <a href="./ki-nang-chi-tiet.html?id=${item.id}"
                            class="news-card__btn-detail">
 
                             XEM HƯỚNG DẪN

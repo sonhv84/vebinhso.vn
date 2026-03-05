@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     </h3>
                     <p class="news-card__desc">${item.desc}</p>
                     <div class="news-card__footer">
-                        <a href="/thong-tin-chi-tiet.html?id=${item.id}" class="news-card__btn-detail">
+                        <a href="./thong-tin-chi-tiet.html?id=${item.id}" class="news-card__btn-detail">
                             CHI TIẾT BÀI VIẾT <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
