@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 2. Khởi tạo và Lấy Dữ Liệu ---
     async function init() {
         try {
-            const res = await fetch('/data/data.json');
+            const res = await fetch('./data/data.json');
             const data = await res.json();
             allNews = data.NEWS_DATA;
             

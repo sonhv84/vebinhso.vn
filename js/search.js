@@ -43,7 +43,7 @@ async function loadExternalData() {
 
     console.log("Đang tải JSON...");
 
-    const response = await fetch("/data/data.json");
+    const response = await fetch("./data/data.json");
 
     console.log("Status:", response.status);
 

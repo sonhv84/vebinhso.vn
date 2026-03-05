@@ -6,13 +6,13 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   // 1. Load Header: Sau khi load xong thì khởi tạo Navbar và Active Link
-  loadComponent("#header", "/partials/header.html", () => {
+  loadComponent("#header", "./partials/header.html", () => {
     initNavbar();
     setActiveNavLink();
   });
 
   // 2. Load Footer: Sau khi load xong thì chạy logic liên quan đến Footer
-  loadComponent("#footer", "/partials/footer.html", initFooter);
+  loadComponent("#footer", "./partials/footer.html", initFooter);
 
   // 3. Khởi tạo Form báo cáo: Chỉ chạy nếu form tồn tại trên trang
   initScamReportForm();
