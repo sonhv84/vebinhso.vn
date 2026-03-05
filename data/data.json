@@ -1,8 +1,22 @@
 {
   "BLACKLIST": {
-    "phones": ["0123456789", "0999888777", "0359107806"],
-    "emails": ["admin@scam.com"],
-    "links": ["33v8.com", "acceso-portalonline.com", "flnsmv.drivyp.cyou", "sukienlq.com", "us-usps-ei.top"]
+    "phones": [
+      "0123456789",
+      "0999888777",
+      "0359107806"
+    ],
+    "emails": [
+      "admin@scam.com",
+      "sonhv2k5@gmail.com"
+    ],
+    "links": [
+      "33v8.com",
+      "acceso-portalonline.com",
+      "flnsmv.drivyp.cyou",
+      "sukienlq.com",
+      "us-usps-ei.top",
+      "fptdng.com/Invoice"
+    ]
   },
   "NEWS_DATA": [
     {
@@ -15,10 +29,27 @@
       "img": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200",
       "sapo": "Lợi dụng nhu cầu mua sắm và chi tiêu cuối năm, các đối tượng lừa đảo đang ráo riết thực hiện kịch bản mạo danh tổng đài viên ngân hàng để 'hút máu' tài khoản người dùng.",
       "content": [
-        { "type": "heading", "text": "Quy trình lừa đảo 3 bước" },
-        { "type": "paragraph", "text": "Bước 1: Kẻ gian gọi điện bằng số rác hoặc giả mạo đầu số ngân hàng, tự xưng là bộ phận quản lý rủi ro hoặc hỗ trợ thẻ. Bước 2: Chúng đọc chính xác 4 số cuối của thẻ tín dụng và họ tên nạn nhân để tạo niềm tin tuyệt đối. Bước 3: Đưa ra lý do cấp bách như 'phát hiện giao dịch lạ tại nước ngoài' hoặc 'hỗ trợ nâng hạn mức không phí' và yêu cầu nạn nhân đọc mã OTP vừa gửi về máy." },
-        { "type": "quote", "text": "Ngân hàng thương mại cổ phần tuyệt đối KHÔNG bao giờ yêu cầu khách hàng cung cấp mã OTP, mật khẩu hay mã PIN qua bất kỳ cuộc gọi nào." },
-        { "type": "alert", "level": "danger", "text": "Mã OTP là 'chìa khóa' cuối cùng. Một khi bạn đọc nó, số tiền trong tài khoản sẽ bốc hơi chỉ trong vài giây." }
+        {
+          "type": "heading",
+          "text": "Quy trình lừa đảo 3 bước"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bước 1: Kẻ gian gọi điện bằng số rác hoặc giả mạo đầu số ngân hàng, tự xưng là bộ phận quản lý rủi ro hoặc hỗ trợ thẻ. Bước 2: Chúng đọc chính xác 4 số cuối của thẻ tín dụng và họ tên nạn nhân để tạo niềm tin tuyệt đối. Bước 3: Đưa ra lý do cấp bách như 'phát hiện giao dịch lạ tại nước ngoài' hoặc 'hỗ trợ nâng hạn mức không phí' và yêu cầu nạn nhân đọc mã OTP vừa gửi về máy."
+        },
+        {
+          "type": "quote",
+          "text": "Ngân hàng thương mại cổ phần tuyệt đối KHÔNG bao giờ yêu cầu khách hàng cung cấp mã OTP, mật khẩu hay mã PIN qua bất kỳ cuộc gọi nào."
+        },
+        {
+          "type": "alert",
+          "level": "danger",
+          "text": "Mã OTP là 'chìa khóa' cuối cùng. Một khi bạn đọc nó, số tiền trong tài khoản sẽ bốc hơi chỉ trong vài giây."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cung duy:  Gia tiên, tiên linh bản phái , hương kỳ phần đại anh hiền, hoặc văn thơ lễ, hoặc lược điền viên, phong thanh thụ lập, văn vọng luwu truyền, dư thanh đồng cẩm, thức lễ mạc khiêm.Gia tiên khí số chung anh , tài năng tế mỹ , nhất thiết liệt vị chư tổng tông. Duy nguyện: Tổ tông bất thác bảo hộ tử tôn giáng phố tổ đường (gia đường) thụ tu cúng dàng. Hương hoa thỉnh. Nhất tâm bái thỉnh: Tiên tổ liệt vị căn thâm mạt mậu đức hậu lưu quang, nghi chỉ thiệu bồi, tích thế chi âm công thương tại, nhưng tồn bằng tịch tục cổn dĩ dư thanh do truòng xuân tam chi thủ bảo, hữu tâm cảm cách tổ đức lưu phương."
+        }
       ]
     },
     {
@@ -31,10 +62,23 @@
       "img": "https://images.unsplash.com/photo-1556742044-3c52d6e88c02?w=1200",
       "sapo": "Đánh vào tâm lý muốn kiếm tiền nhanh của sinh viên và người lao động phổ thông, các ổ nhóm lừa đảo xuyên quốc gia đang lũng đoạn mạng xã hội bằng các nhóm Telegram hàng chục nghìn thành viên.",
       "content": [
-        { "type": "heading", "text": "Cái bẫy 'Thả tim nhận tiền'" },
-        { "type": "paragraph", "text": "Nạn nhân được mời vào các nhóm làm nhiệm vụ: thả tim video TikTok hoặc đặt đơn hàng ảo trên sàn TMĐT để nhận hoa hồng 10-20%. Những nhiệm vụ đầu tiên có giá trị nhỏ, nạn nhân được trả tiền thật rất sòng phẳng để làm mồi nhử." },
-        { "type": "paragraph", "text": "Khi đã tin tưởng, đối tượng yêu cầu nạp số tiền lớn hơn (vài triệu đến hàng trăm triệu) để hưởng hoa hồng VIP. Lúc này, hệ thống sẽ báo lỗi và yêu cầu nạp thêm tiền để 'giải ngân'." },
-        { "type": "alert", "level": "danger", "text": "Không có công việc nào chỉ cần ngồi click chuột mà nhận được hàng triệu đồng mỗi ngày. Hãy cảnh giác với mọi lời mời tuyển dụng trên Telegram." }
+        {
+          "type": "heading",
+          "text": "Cái bẫy 'Thả tim nhận tiền'"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nạn nhân được mời vào các nhóm làm nhiệm vụ: thả tim video TikTok hoặc đặt đơn hàng ảo trên sàn TMĐT để nhận hoa hồng 10-20%. Những nhiệm vụ đầu tiên có giá trị nhỏ, nạn nhân được trả tiền thật rất sòng phẳng để làm mồi nhử."
+        },
+        {
+          "type": "paragraph",
+          "text": "Khi đã tin tưởng, đối tượng yêu cầu nạp số tiền lớn hơn (vài triệu đến hàng trăm triệu) để hưởng hoa hồng VIP. Lúc này, hệ thống sẽ báo lỗi và yêu cầu nạp thêm tiền để 'giải ngân'."
+        },
+        {
+          "type": "alert",
+          "level": "danger",
+          "text": "Không có công việc nào chỉ cần ngồi click chuột mà nhận được hàng triệu đồng mỗi ngày. Hãy cảnh giác với mọi lời mời tuyển dụng trên Telegram."
+        }
       ]
     },
     {
@@ -47,9 +91,19 @@
       "img": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200",
       "sapo": "Các đường link lạ dẫn đến trang đăng nhập giả mạo MoMo đang lan truyền nhanh chóng qua tin nhắn SMS và Facebook, đe dọa trực tiếp đến an toàn tài chính của người dùng.",
       "content": [
-        { "type": "heading", "text": "Phân tích kỹ thuật giả mạo" },
-        { "type": "paragraph", "text": "Đối tượng thiết kế website có tên miền gần giống (ví dụ: vimo-mo.vn, nhanquamomo.com). Giao diện trang đăng nhập giống hệt trang thật. Khi người dùng nhập số điện thoại và mật khẩu, thông tin này ngay lập tức được gửi về máy chủ của kẻ lừa đảo." },
-        { "type": "alert", "level": "info", "text": "Hãy luôn kiểm tra biểu tượng ổ khóa bảo mật trên trình duyệt và chỉ đăng nhập qua ứng dụng chính thức của MoMo." }
+        {
+          "type": "heading",
+          "text": "Phân tích kỹ thuật giả mạo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Đối tượng thiết kế website có tên miền gần giống (ví dụ: vimo-mo.vn, nhanquamomo.com). Giao diện trang đăng nhập giống hệt trang thật. Khi người dùng nhập số điện thoại và mật khẩu, thông tin này ngay lập tức được gửi về máy chủ của kẻ lừa đảo."
+        },
+        {
+          "type": "alert",
+          "level": "info",
+          "text": "Hãy luôn kiểm tra biểu tượng ổ khóa bảo mật trên trình duyệt và chỉ đăng nhập qua ứng dụng chính thức của MoMo."
+        }
       ]
     },
     {
@@ -62,9 +116,18 @@
       "img": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200",
       "sapo": "Công nghệ Deepfake đang trở thành 'vũ khí' nguy hiểm nhất của tội phạm mạng năm 2026, khiến việc phân biệt thật giả qua video call trở nên gần như không thể.",
       "content": [
-        { "type": "heading", "text": "Tại sao Deepfake lại nguy hiểm?" },
-        { "type": "paragraph", "text": "Chỉ cần vài phút video có hình ảnh và giọng nói của bạn trên mạng xã hội, AI có thể tái tạo lại một bản sao kỹ thuật số. Kẻ lừa đảo sẽ dùng bản sao này gọi cho người thân của bạn, báo đang gặp tai nạn hoặc cần vay tiền gấp." },
-        { "type": "quote", "text": "Khi nhận cuộc gọi video mượn tiền, hãy yêu cầu đối tượng thực hiện các hành động như quay mặt sang trái, sang phải hoặc đưa tay lên mặt. Deepfake thường sẽ bị biến dạng ở các góc quay này." }
+        {
+          "type": "heading",
+          "text": "Tại sao Deepfake lại nguy hiểm?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chỉ cần vài phút video có hình ảnh và giọng nói của bạn trên mạng xã hội, AI có thể tái tạo lại một bản sao kỹ thuật số. Kẻ lừa đảo sẽ dùng bản sao này gọi cho người thân của bạn, báo đang gặp tai nạn hoặc cần vay tiền gấp."
+        },
+        {
+          "type": "quote",
+          "text": "Khi nhận cuộc gọi video mượn tiền, hãy yêu cầu đối tượng thực hiện các hành động như quay mặt sang trái, sang phải hoặc đưa tay lên mặt. Deepfake thường sẽ bị biến dạng ở các góc quay này."
+        }
       ]
     },
     {
@@ -77,8 +140,15 @@
       "img": "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=1200",
       "sapo": "Những tin nhắn 'Bạn đã trúng một bộ mỹ phẩm cao cấp' đang bủa vây người dùng mạng xã hội nhân dịp Quốc tế Phụ nữ.",
       "content": [
-        { "type": "paragraph", "text": "Mục đích chính của chúng là thu thập họ tên, số điện thoại và địa chỉ nhà của nạn nhân để bán cho các tổ chức tiếp thị rác hoặc làm tiền đề cho các cuộc gọi lừa đảo tài chính sau này." },
-        { "type": "alert", "level": "info", "text": "Các nhãn hàng lớn thường công bố trúng thưởng trên Fanpage có tích xanh, không qua tin nhắn rác." }
+        {
+          "type": "paragraph",
+          "text": "Mục đích chính của chúng là thu thập họ tên, số điện thoại và địa chỉ nhà của nạn nhân để bán cho các tổ chức tiếp thị rác hoặc làm tiền đề cho các cuộc gọi lừa đảo tài chính sau này."
+        },
+        {
+          "type": "alert",
+          "level": "info",
+          "text": "Các nhãn hàng lớn thường công bố trúng thưởng trên Fanpage có tích xanh, không qua tin nhắn rác."
+        }
       ]
     },
     {
@@ -91,9 +161,19 @@
       "img": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200",
       "sapo": "Tội phạm công nghệ cao đang lợi dụng chủ trương chuyển đổi số để dẫn dụ người dân cài đặt các phần mềm độc hại, từ đó chiếm toàn quyền điều khiển điện thoại.",
       "content": [
-        { "type": "heading", "text": "Quyền trợ năng (Accessibility) - Kẽ hở chết người" },
-        { "type": "paragraph", "text": "Khi người dân cài đặt file .apk giả mạo, ứng dụng sẽ yêu cầu cấp quyền Trợ năng. Một khi có quyền này, mã độc có thể tự động đọc mã OTP từ SMS, tự thực hiện các thao tác click chuột để chuyển tiền ngân hàng mà không cần chủ máy can thiệp." },
-        { "type": "alert", "level": "danger", "text": "Cơ quan nhà nước KHÔNG bao giờ yêu cầu người dân cài đặt ứng dụng qua file gửi từ Zalo hay các đường link lạ." }
+        {
+          "type": "heading",
+          "text": "Quyền trợ năng (Accessibility) - Kẽ hở chết người"
+        },
+        {
+          "type": "paragraph",
+          "text": "Khi người dân cài đặt file .apk giả mạo, ứng dụng sẽ yêu cầu cấp quyền Trợ năng. Một khi có quyền này, mã độc có thể tự động đọc mã OTP từ SMS, tự thực hiện các thao tác click chuột để chuyển tiền ngân hàng mà không cần chủ máy can thiệp."
+        },
+        {
+          "type": "alert",
+          "level": "danger",
+          "text": "Cơ quan nhà nước KHÔNG bao giờ yêu cầu người dân cài đặt ứng dụng qua file gửi từ Zalo hay các đường link lạ."
+        }
       ]
     },
     {
@@ -106,8 +186,14 @@
       "img": "https://images.unsplash.com/photo-1516245834210-c4c142787335?w=1200",
       "sapo": "Lừa đảo 'mổ bụng lợn' (Pig Butchering) là sự kết hợp tinh vi giữa tâm lý học tình cảm và các sàn giao dịch tài chính giả mạo.",
       "content": [
-        { "type": "paragraph", "text": "Đối tượng dành hàng tháng trời để làm quen, yêu đương qua mạng. Sau khi xây dựng được lòng tin, chúng bắt đầu 'rủ rê' nạn nhân đầu tư vào các sàn tiền ảo có tỷ suất lợi nhuận cực cao nhưng thực chất là do chúng điều khiển kết quả." },
-        { "type": "quote", "text": "Tình yêu qua mạng kèm theo lời mời đầu tư tài chính luôn là một kịch bản lừa đảo đã được soạn sẵn." }
+        {
+          "type": "paragraph",
+          "text": "Đối tượng dành hàng tháng trời để làm quen, yêu đương qua mạng. Sau khi xây dựng được lòng tin, chúng bắt đầu 'rủ rê' nạn nhân đầu tư vào các sàn tiền ảo có tỷ suất lợi nhuận cực cao nhưng thực chất là do chúng điều khiển kết quả."
+        },
+        {
+          "type": "quote",
+          "text": "Tình yêu qua mạng kèm theo lời mời đầu tư tài chính luôn là một kịch bản lừa đảo đã được soạn sẵn."
+        }
       ]
     },
     {
@@ -120,8 +206,15 @@
       "img": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200",
       "sapo": "Chỉ với 20.000 đồng, kẻ lừa đảo có thể mua được một tấm ảnh biên lai chuyển tiền trông như thật, khiến nhiều người bán hàng mất trắng hàng hóa.",
       "content": [
-        { "type": "paragraph", "text": "Các website tạo bill giả cho phép tùy chỉnh tên người gửi, số tài khoản và thời gian giao dịch chính xác đến từng giây. Người bán hàng nếu chỉ nhìn ảnh chụp màn hình mà không kiểm tra số dư thực tế sẽ dễ dàng bị lừa." },
-        { "type": "alert", "level": "danger", "text": "Luôn xác nhận tiền đã nảy số trong tài khoản ngân hàng của bạn trước khi giao hàng cho khách." }
+        {
+          "type": "paragraph",
+          "text": "Các website tạo bill giả cho phép tùy chỉnh tên người gửi, số tài khoản và thời gian giao dịch chính xác đến từng giây. Người bán hàng nếu chỉ nhìn ảnh chụp màn hình mà không kiểm tra số dư thực tế sẽ dễ dàng bị lừa."
+        },
+        {
+          "type": "alert",
+          "level": "danger",
+          "text": "Luôn xác nhận tiền đã nảy số trong tài khoản ngân hàng của bạn trước khi giao hàng cho khách."
+        }
       ]
     },
     {
@@ -134,8 +227,15 @@
       "img": "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?w=1200",
       "sapo": "Telegram đang trở thành mảnh đất màu mỡ cho tội phạm chiếm đoạt tài khoản thông qua tính năng quét mã QR đăng nhập nhanh.",
       "content": [
-        { "type": "paragraph", "text": "Kẻ gian gửi một tấm ảnh mã QR giả danh là vé tham gia sự kiện hoặc nhận quà. Khi người dùng quét mã bằng ứng dụng Telegram, họ vô tình cho phép kẻ gian đăng nhập tài khoản trên một thiết bị khác." },
-        { "type": "alert", "level": "info", "text": "Hãy bật tính năng Xác thực 2 lớp (Two-step Verification) để bảo vệ tài khoản của bạn ngay cả khi bị lộ mã đăng nhập." }
+        {
+          "type": "paragraph",
+          "text": "Kẻ gian gửi một tấm ảnh mã QR giả danh là vé tham gia sự kiện hoặc nhận quà. Khi người dùng quét mã bằng ứng dụng Telegram, họ vô tình cho phép kẻ gian đăng nhập tài khoản trên một thiết bị khác."
+        },
+        {
+          "type": "alert",
+          "level": "info",
+          "text": "Hãy bật tính năng Xác thực 2 lớp (Two-step Verification) để bảo vệ tài khoản của bạn ngay cả khi bị lộ mã đăng nhập."
+        }
       ]
     },
     {
@@ -148,7 +248,10 @@
       "img": "https://images.unsplash.com/photo-1556742111-a301076d9d18?w=1200",
       "sapo": "Lợi dụng quy định chuẩn hóa thông tin thuê bao, kẻ lừa đảo nhắn tin hối thúc người dùng cung cấp thông tin cá nhân dưới áp lực sẽ bị khóa SIM sau 24 giờ.",
       "content": [
-        { "type": "paragraph", "text": "Sau khi nạn nhân click vào link và điền thông tin, đối tượng sẽ chiếm quyền kiểm soát SIM để lấy mã OTP ngân hàng, thực hiện rút tiền bất hợp pháp." }
+        {
+          "type": "paragraph",
+          "text": "Sau khi nạn nhân click vào link và điền thông tin, đối tượng sẽ chiếm quyền kiểm soát SIM để lấy mã OTP ngân hàng, thực hiện rút tiền bất hợp pháp."
+        }
       ]
     },
     {
@@ -161,8 +264,14 @@
       "img": "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=1200",
       "sapo": "Nhiều gia đình bị shipper giả mạo đến giao hàng vào lúc người mua thực sự vắng mặt, lừa người thân nhận hộ và trả số tiền lớn cho các món hàng vô giá trị.",
       "content": [
-        { "type": "paragraph", "text": "Kẻ gian thu thập thông tin đơn hàng thật của bạn (họ tên, địa chỉ, món hàng) từ các bãi rác hoặc shipper thiếu trung thực để tạo ra đơn hàng giả y hệt." },
-        { "type": "quote", "text": "Hãy dặn người thân tuyệt đối không nhận hàng giúp nếu không có sự thông báo trước từ bạn." }
+        {
+          "type": "paragraph",
+          "text": "Kẻ gian thu thập thông tin đơn hàng thật của bạn (họ tên, địa chỉ, món hàng) từ các bãi rác hoặc shipper thiếu trung thực để tạo ra đơn hàng giả y hệt."
+        },
+        {
+          "type": "quote",
+          "text": "Hãy dặn người thân tuyệt đối không nhận hàng giúp nếu không có sự thông báo trước từ bạn."
+        }
       ]
     },
     {
@@ -175,8 +284,15 @@
       "img": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200",
       "sapo": "Đánh vào nỗi sợ hãi liên quan đến pháp luật, tội phạm mạo danh công an, viện kiểm sát đang khiến nhiều nạn nhân hoảng loạn chuyển số tiền lớn vào 'tài khoản điều tra'.",
       "content": [
-        { "type": "paragraph", "text": "Chúng thông báo bạn liên quan đến đường dây rửa tiền hoặc ma túy quốc tế, yêu cầu chuyển toàn bộ tiền vào một tài khoản ngân hàng của chúng để 'xác minh nguồn gốc sạch'." },
-        { "type": "alert", "level": "danger", "text": "Công an không bao giờ làm việc qua điện thoại và không bao giờ yêu cầu dân chuyển tiền vào bất kỳ tài khoản cá nhân nào." }
+        {
+          "type": "paragraph",
+          "text": "Chúng thông báo bạn liên quan đến đường dây rửa tiền hoặc ma túy quốc tế, yêu cầu chuyển toàn bộ tiền vào một tài khoản ngân hàng của chúng để 'xác minh nguồn gốc sạch'."
+        },
+        {
+          "type": "alert",
+          "level": "danger",
+          "text": "Công an không bao giờ làm việc qua điện thoại và không bao giờ yêu cầu dân chuyển tiền vào bất kỳ tài khoản cá nhân nào."
+        }
       ]
     },
     {
@@ -189,8 +305,15 @@
       "img": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
       "sapo": "Công nghệ chỉnh sửa ảnh bằng AI đang bị biến tướng thành công cụ tống tiền bẩn, nhắm trực tiếp vào danh dự của phụ nữ và những người có sức ảnh hưởng.",
       "content": [
-        { "type": "paragraph", "text": "Đối tượng lấy ảnh chân dung trên Facebook, dùng AI để tạo ra các tấm ảnh nhạy cảm giả mạo rồi đe dọa gửi cho gia đình, bạn bè nạn nhân nếu không nộp tiền chuộc." },
-        { "type": "alert", "level": "danger", "text": "Nếu là nạn nhân, tuyệt đối không trả tiền vì chúng sẽ tiếp tục tống tiền. Hãy bình tĩnh thu thập bằng chứng và báo ngay cho cơ quan chức năng." }
+        {
+          "type": "paragraph",
+          "text": "Đối tượng lấy ảnh chân dung trên Facebook, dùng AI để tạo ra các tấm ảnh nhạy cảm giả mạo rồi đe dọa gửi cho gia đình, bạn bè nạn nhân nếu không nộp tiền chuộc."
+        },
+        {
+          "type": "alert",
+          "level": "danger",
+          "text": "Nếu là nạn nhân, tuyệt đối không trả tiền vì chúng sẽ tiếp tục tống tiền. Hãy bình tĩnh thu thập bằng chứng và báo ngay cho cơ quan chức năng."
+        }
       ]
     },
     {
@@ -203,8 +326,14 @@
       "img": "https://images.unsplash.com/photo-1436491865332-7a61a109c0f2?w=1200",
       "sapo": "Nhu cầu đi lại tăng cao là lúc các 'đại lý vé máy bay' giả mạo mọc lên như nấm trên mạng xã hội với những ưu đãi không tưởng.",
       "content": [
-        { "type": "paragraph", "text": "Kẻ lừa đảo tạo fanpage có tên và logo giống hệt các hãng lớn, đăng bài thanh lý vé máy bay giá rẻ. Sau khi nạn nhân chuyển khoản đặt cọc, chúng sẽ chặn liên lạc ngay lập tức." },
-        { "type": "quote", "text": "Luôn mua vé qua website chính thức hoặc các đại lý có giấy phép hoạt động rõ ràng." }
+        {
+          "type": "paragraph",
+          "text": "Kẻ lừa đảo tạo fanpage có tên và logo giống hệt các hãng lớn, đăng bài thanh lý vé máy bay giá rẻ. Sau khi nạn nhân chuyển khoản đặt cọc, chúng sẽ chặn liên lạc ngay lập tức."
+        },
+        {
+          "type": "quote",
+          "text": "Luôn mua vé qua website chính thức hoặc các đại lý có giấy phép hoạt động rõ ràng."
+        }
       ]
     },
     {
@@ -217,9 +346,118 @@
       "img": "https://images.unsplash.com/photo-1579621970795-87fbb3f563d7?w=1200",
       "sapo": "Những lời mời chào vay tiền không cần thế chấp, giải ngân trong 5 phút đang là khởi đầu cho chuỗi ngày bị khủng bố tinh thần và nợ chồng nợ.",
       "content": [
-        { "type": "paragraph", "text": "Nạn nhân thường bị yêu cầu đóng một khoản 'phí bảo hiểm vay' hoặc 'phí xử lý hồ sơ' trước khi nhận tiền. Sau khi đóng tiền xong, ứng dụng sẽ báo lỗi và yêu cầu nộp thêm để sửa lỗi hệ thống." },
-        { "type": "alert", "level": "danger", "text": "Mọi khoản vay yêu cầu nộp tiền trước đều là lừa đảo. Hãy tìm đến các ngân hàng chính thống khi có nhu cầu tài chính." }
+        {
+          "type": "paragraph",
+          "text": "Nạn nhân thường bị yêu cầu đóng một khoản 'phí bảo hiểm vay' hoặc 'phí xử lý hồ sơ' trước khi nhận tiền. Sau khi đóng tiền xong, ứng dụng sẽ báo lỗi và yêu cầu nộp thêm để sửa lỗi hệ thống."
+        },
+        {
+          "type": "alert",
+          "level": "danger",
+          "text": "Mọi khoản vay yêu cầu nộp tiền trước đều là lừa đảo. Hãy tìm đến các ngân hàng chính thống khi có nhu cầu tài chính."
+        }
       ]
+    }
+  ],
+  "SKILLS_DATA": [
+    {
+      "id": 1,
+      "label": "Bảo mật",
+      "tagClass": "tag-success",
+      "title": "Kích hoạt xác thực 2 lớp (2FA) toàn diện",
+      "desc": "Hướng dẫn sử dụng Google Authenticator cho Facebook, Zalo và Gmail để chặn đứng hacker.",
+      "time": "5 phút đọc",
+      "img": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800",
+      "category": "security"
+    },
+    {
+      "id": 2,
+      "label": "Kiểm chứng",
+      "tagClass": "tag-primary",
+      "title": "Cách nhận biết Website giả mạo trong 10s",
+      "desc": "Soi tên miền, chứng chỉ SSL và các lỗi chính tả tinh vi của website lừa đảo.",
+      "time": "4 phút đọc",
+      "img": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800",
+      "category": "checking"
+    },
+    {
+      "id": 3,
+      "label": "Tài chính",
+      "tagClass": "tag-warning",
+      "title": "Phân biệt Biên lai chuyển tiền giả",
+      "desc": "Các dấu hiệu nhận biết bill chuyển khoản bị chỉnh sửa bằng phần mềm hoặc website giả.",
+      "time": "6 phút đọc",
+      "img": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800",
+      "category": "finance"
+    },
+    {
+      "id": 4,
+      "label": "Thiết bị",
+      "tagClass": "tag-purple",
+      "title": "Gỡ bỏ mã độc trên điện thoại Android",
+      "desc": "Dấu hiệu điện thoại bị theo dõi và cách gỡ các file .APK lạ chiếm quyền trợ năng.",
+      "time": "8 phút đọc",
+      "img": "https://images.unsplash.com/photo-1603899122634-f086ca5f5ddd?w=800",
+      "category": "device"
+    },
+    {
+      "id": 5,
+      "label": "Ứng xử",
+      "tagClass": "tag-info",
+      "title": "Xử lý khi nhận cuộc gọi hăm dọa",
+      "desc": "Kỹ năng giữ bình tĩnh và cách xác thực thông tin khi có người tự xưng là Công an gọi điện.",
+      "time": "5 phút đọc",
+      "img": "https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?w=800",
+      "category": "soft-skills"
+    },
+    {
+      "id": 6,
+      "label": "Bảo mật",
+      "tagClass": "tag-success",
+      "title": "Quản lý mật khẩu bằng phương pháp 'Câu thần chú'",
+      "desc": "Cách tạo mật khẩu phức tạp nhưng cực kỳ dễ nhớ và an toàn trước các cuộc tấn công Brute-force.",
+      "time": "3 phút đọc",
+      "img": "https://images.unsplash.com/photo-1633265485768-30691b225162?w=800",
+      "category": "security"
+    },
+    {
+      "id": 7,
+      "label": "Công nghệ",
+      "tagClass": "tag-dark",
+      "title": "Nhận diện Deepfake Video Call",
+      "desc": "Các mẹo nhỏ như yêu cầu người gọi quay mặt hoặc đưa tay lên mặt để bẻ gãy thuật toán AI.",
+      "time": "4 phút đọc",
+      "img": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800",
+      "category": "tech"
+    },
+    {
+      "id": 8,
+      "label": "Mua sắm",
+      "tagClass": "tag-orange",
+      "title": "Tránh bẫy lừa đảo đơn hàng 0đ (Ship COD)",
+      "desc": "Quy tắc kiểm tra mã vận đơn trên app trước khi thanh toán cho Shipper để không mất tiền oan.",
+      "time": "5 phút đọc",
+      "img": "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=800",
+      "category": "shopping"
+    },
+    {
+      "id": 9,
+      "label": "Xử lý",
+      "tagClass": "tag-danger",
+      "title": "Cần làm gì khi đã lỡ chuyển tiền cho kẻ lừa đảo?",
+      "desc": "Quy trình 4 bước khẩn cấp: Chặn tài khoản, trình báo cơ quan chức năng và thu thập bằng chứng.",
+      "time": "10 phút đọc",
+      "img": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800",
+      "category": "action"
+    },
+    {
+      "id": 10,
+      "label": "Tài chính",
+      "tagClass": "tag-warning",
+      "title": "Cảnh giác với app vay tiền nhanh lãi suất 0%",
+      "desc": "Cách nhận diện tín dụng đen và quyền truy cập danh bạ trái phép của các app vay tiền.",
+      "time": "7 phút đọc",
+      "img": "https://images.unsplash.com/photo-1579621970795-87fbb3f563d7?w=800",
+      "category": "finance"
     }
   ]
 }

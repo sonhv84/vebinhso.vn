@@ -32,4 +32,14 @@
      =============================== */
   --shadow-soft: 0 2px 10px rgba(0, 0, 0, 0.08);          /* Đổ bóng nhẹ – navbar, card */
   --shadow-danger: 0 6px 18px rgba(220, 38, 38, 0.4);    /* Đổ bóng CTA – nút cảnh báo */
+
+          --primary: #2563eb;
+        --danger: #ef4444;
+        --warning: #f59e0b;
+        --purple: #8b5cf6;
+        --info: #06b6d4;
+        --bg-body: #f8fafc;
+        --card-bg: #ffffff;
+        --text-title: #1e293b;
+        --text-desc: #64748b;
 }

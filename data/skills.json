@@ -1,0 +1,136 @@
+{
+          "SKILLS_DATA": [
+                    {
+                              "id": 1,
+                              "label": "Bảo mật",
+                              "tagClass": "tag-success",
+                              "title": "Thiết lập xác thực 2 lớp (2FA) toàn diện",
+                              "desc": "Hướng dẫn sử dụng App Authenticator thay thế cho SMS OTP để bảo vệ tài khoản.",
+                              "time": "5 phút đọc",
+                              "img": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800",
+                              "content": [
+                                        {
+                                                  "type": "heading",
+                                                  "text": "Tại sao không nên dùng OTP qua SMS?"
+                                        },
+                                        {
+                                                  "type": "paragraph",
+                                                  "text": "Tin nhắn SMS có thể bị chiếm quyền điều khiển qua kỹ thuật SIM Swap. Hacker có thể lừa nhà mạng cấp lại SIM của bạn để nhận mã OTP."
+                                        },
+                                        {
+                                                  "type": "alert",
+                                                  "level": "info",
+                                                  "text": "Hãy sử dụng Google Authenticator hoặc Microsoft Authenticator để tạo mã offline."
+                                        },
+                                        {
+                                                  "type": "quote",
+                                                  "text": "Mật khẩu là cửa trước, 2FA là lớp cửa sắt bảo vệ tài sản của bạn."
+                                        }
+                              ]
+                    },
+                    {
+                              "id": 2,
+                              "label": "Kiểm chứng",
+                              "tagClass": "tag-primary",
+                              "title": "Nhận biết Website giả mạo trong 10s",
+                              "desc": "Mẹo soi tên miền và chứng chỉ bảo mật SSL chỉ trong vài giây.",
+                              "time": "4 phút đọc",
+                              "img": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800",
+                              "content": [
+                                        {
+                                                  "type": "heading",
+                                                  "text": "Quy tắc soi tên miền"
+                                        },
+                                        {
+                                                  "type": "paragraph",
+                                                  "text": "Kẻ xấu thường thay chữ 'o' bằng số '0' hoặc chữ 'i' bằng chữ 'l'. Ví dụ: vietcombank.com.vn thành vletcombank.com.vn."
+                                        },
+                                        {
+                                                  "type": "alert",
+                                                  "level": "danger",
+                                                  "text": "Luôn kiểm tra biểu tượng ổ khóa trên thanh địa chỉ trình duyệt."
+                                        }
+                              ]
+                    },
+                    {
+                              "id": 3,
+                              "label": "Tài chính",
+                              "tagClass": "tag-warning",
+                              "title": "Cách soi Biên lai chuyển tiền giả",
+                              "desc": "Nhận biết bill chuyển khoản bị chỉnh sửa bằng phần mềm.",
+                              "time": "6 phút đọc",
+                              "img": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800",
+                              "content": []
+                    },
+                    {
+                              "id": 4,
+                              "label": "Thiết bị",
+                              "tagClass": "tag-purple",
+                              "title": "Gỡ mã độc trên Android",
+                              "desc": "Cách tìm và xóa các file .APK lạ chiếm quyền điều khiển.",
+                              "time": "8 phút đọc",
+                              "img": "https://images.unsplash.com/photo-1603899122634-f086ca5f5ddd?w=800",
+                              "content": []
+                    },
+                    {
+                              "id": 5,
+                              "label": "Ứng xử",
+                              "tagClass": "tag-info",
+                              "title": "Xử lý cuộc gọi hăm dọa",
+                              "desc": "Kỹ năng giữ bình tĩnh khi kẻ gian giả danh công an.",
+                              "time": "5 phút đọc",
+                              "img": "https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?w=800",
+                              "content": []
+                    },
+                    {
+                              "id": 6,
+                              "label": "Bảo mật",
+                              "tagClass": "tag-success",
+                              "title": "Quản lý mật khẩu an toàn",
+                              "desc": "Sử dụng Password Manager và quy tắc đặt mật khẩu phức tạp.",
+                              "time": "3 phút đọc",
+                              "img": "https://images.unsplash.com/photo-1633265485768-30691b225162?w=800",
+                              "content": []
+                    },
+                    {
+                              "id": 7,
+                              "label": "Công nghệ",
+                              "tagClass": "tag-dark",
+                              "title": "Nhận diện Deepfake Video Call",
+                              "desc": "Mẹo bắt bài AI khi gọi video lừa đảo.",
+                              "time": "4 phút đọc",
+                              "img": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800",
+                              "content": []
+                    },
+                    {
+                              "id": 8,
+                              "label": "Mua sắm",
+                              "tagClass": "tag-orange",
+                              "title": "Tránh bẫy Ship COD đơn hàng ma",
+                              "desc": "Quy tắc kiểm tra đơn hàng trước khi thanh toán.",
+                              "time": "5 phút đọc",
+                              "img": "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=800",
+                              "content": []
+                    },
+                    {
+                              "id": 9,
+                              "label": "Xử lý",
+                              "tagClass": "tag-danger",
+                              "title": "Quy trình khẩn cấp khi đã bị lừa",
+                              "desc": "4 bước thu hồi vốn và báo cáo cơ quan chức năng.",
+                              "time": "10 phút đọc",
+                              "img": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800",
+                              "content": []
+                    },
+                    {
+                              "id": 10,
+                              "label": "Tài chính",
+                              "tagClass": "tag-warning",
+                              "title": "Cảnh giác App vay tiền nhanh",
+                              "desc": "Nhận diện tín dụng đen núp bóng ứng dụng online.",
+                              "time": "7 phút đọc",
+                              "img": "https://images.unsplash.com/photo-1579621970795-87fbb3f563d7?w=800",
+                              "content": []
+                    }
+          ]
+}

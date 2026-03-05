@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="icon" href="/assets/icons/logo_header.ico">
+          <link rel="stylesheet" href="/css/main.css">
+</head>
+<style>
+          body {
+                    margin: 0;
+                    font-family: Arial, sans-serif;
+                    background: linear-gradient(135deg, #1e293b, #0f172a);
+                    color: white;
+                    display: block;
+                    justify-content: center;
+                    align-items: center;
+                    min-height: 200vh;
+                    overflow: hidden;
+                    text-align: center;
+                    scroll-behavior: smooth;
+          }
+
+          .container {
+                    max-width: 600px;
+                    padding: 40px;
+          }
+
+          .icon {
+                    font-size: 80px;
+                    margin-bottom: 20px;
+                    animation: bounce 1.5s infinite;
+          }
+
+          h1 {
+                    font-size: 32px;
+                    margin-bottom: 10px;
+          }
+
+          .progress-container {
+                    width: 100%;
+                    background: rgba(255, 255, 255, 0.1);
+                    border-radius: 30px;
+                    overflow: hidden;
+                    margin: 30px 0;
+          }
+
+          .progress-bar {
+                    height: 20px;
+                    width: 0%;
+                    background: #22c55e;
+                    transition: width 0.3s;
+          }
+
+          #percent {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    opacity: 0.8;
+          }
+
+          button {
+                    padding: 12px 25px;
+                    border: none;
+                    border-radius: 30px;
+                    cursor: pointer;
+                    font-size: 16px;
+                    margin-top: 20px;
+                    position: relative;
+          }
+
+          #escapeBtn {
+                    background: #ef4444;
+                    color: white;
+          }
+
+          #realContent {
+                    display: none;
+                    margin-top: 30px;
+                    font-size: 18px;
+                    color: #22c55e;
+          }
+
+          @keyframes bounce {
+
+                    0%,
+                    100% {
+                              transform: translateY(0);
+                    }
+
+                    50% {
+                              transform: translateY(-10px);
+                    }
+          }
+</style>
+
+<body>
+          <div id="header"></div>
+          <div class="container">
+                    <div class="icon">🚧</div>
+
+                    <h1>Website đang thi công</h1>
+                    <p>Hệ thống đang được nâng cấp. Vui lòng chờ...</p>
+
+                    <div class="progress-container">
+                              <div class="progress-bar" id="bar"></div>
+                    </div>
+
+                    <div id="percent">0%</div>
+
+                    <button id="escapeBtn">Quay lại</button>
+
+                    <div id="realContent">
+                              🎉 Bạn đã bị thử thách tâm lý thành công!
+                              <br />
+                              Không có gì nguy hiểm — chỉ là một trò vui nhỏ.
+                    </div>
+          </div>
+          <div id="footer"></div>
+</body>
+<script>
+          let percent = 0;
+
+          const bar = document.getElementById("bar");
+          const percentText = document.getElementById("percent");
+          const realContent = document.getElementById("realContent");
+          const escapeBtn = document.getElementById("escapeBtn");
+
+          // Loading giả – dừng ở 99% khá lâu
+          const interval = setInterval(() => {
+                    if (percent < 99) {
+                              percent += Math.random() * 5;
+                              if (percent > 99) percent = 99;
+
+                              bar.style.width = percent + "%";
+                              percentText.innerText = Math.floor(percent) + "%";
+                    }
+          }, 300);
+
+          // Sau 15 giây mới hoàn tất
+          setTimeout(() => {
+                    clearInterval(interval);
+                    percent = 100;
+                    bar.style.width = "100%";
+                    percentText.innerText = "100%";
+                    realContent.style.display = "block";
+          }, 15000);
+
+          // Nút né chuột
+          escapeBtn.addEventListener("mouseover", () => {
+                    const x = Math.random() * (window.innerWidth - 150);
+                    const y = Math.random() * (window.innerHeight - 60);
+
+                    escapeBtn.style.position = "absolute";
+                    escapeBtn.style.left = x + "px";
+                    escapeBtn.style.top = y + "px";
+          });
+</script>
+<script src="/js/layout.js"></script>
+
+</html>

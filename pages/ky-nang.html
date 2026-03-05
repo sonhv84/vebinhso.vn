@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kỹ năng phòng vệ | Vệ Binh Số</title>
+    <link rel="icon" href="/assets/icons/logo_header.ico">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <main class="news-container">
+        <h2>Cẩm nang Phòng vệ</h2>
+        <p style="color: #666; margin-bottom: 30px; ;">Trang bị kiến thức và kỹ năng để trở thành một "Vệ binh số" tự bảo
+            vệ mình trên không gian mạng.</p>
+            <hr>
+            <br>
+        
+                    <div class="news-search">
+                    <input type="text" id="skillSearchInput" class="search-box"
+            placeholder="Tìm kiếm kỹ năng (vd: bảo mật Facebook, tạo mật khẩu, nhận diện web giả mạo...)">
+        </div>
+        <div class="filter-container">
+            <button class="filter-btn active" onclick="filterByLabel('Tất cả')">Tất cả</button>
+            <button class="filter-btn" onclick="filterByLabel('Bảo mật')">Bảo mật</button>
+            <button class="filter-btn" onclick="filterByLabel('Kiểm chứng')">Kiểm chứng</button>
+            <button class="filter-btn" onclick="filterByLabel('Tài chính')">Tài chính</button>
+            <button class="filter-btn" onclick="filterByLabel('Công nghệ')">Công nghệ</button>
+            <button class="filter-btn" onclick="filterByLabel('Xử lý')">Xử lý</button>
+        </div>
+
+        <div id="skillsFeed" class="news-grid"></div>
+        <div id="pagination" class="pagination"></div>
+        <div id="skillsFeed" class="news-grid">
+            <p>Đang tải danh sách kỹ năng...</p>
+        </div>
+
+        <div id="pagination" class="pagination"></div>
+
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="/js/layout.js"></script>
+    <script src="/js/skills.js"></script>
+</body>
+
+</html>

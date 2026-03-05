@@ -1,219 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="vi">
 <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Tin tức |Vệ Binh Số</title>
-          <meta name="description"
-                    content="Vệ Binh Số là nền tảng tuyên truyền, cảnh báo và phòng chống lừa đảo trên không gian mạng, giúp người dùng nhận diện và tránh các thủ đoạn lừa đảo trực tuyến.">
-
-          <link rel="icon" href="/assets/icons/logo_header.ico">
-          <link rel="stylesheet" href="/css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trung tâm Cảnh báo | Vệ Binh Số</title>
+    <link rel="icon" href="/assets/icons/logo_header.ico">
+    <link rel="stylesheet" href="/css/main.css">
 </head>
-
-<style>
-          /* =========================================
-   NEWS PAGE STYLES - VE BINH SO (1200PX)
-   ========================================= */
-
-:root {
-    --primary: #2563eb;
-    --danger: #ef4444;
-    --warning: #f59e0b;
-    --purple: #8b5cf6;
-    --info: #06b6d4;
-    --bg-body: #f8fafc;
-    --card-bg: #ffffff;
-    --text-title: #1e293b;
-    --text-desc: #64748b;
-}
-
-body {
-    background-color: var(--bg-body);
-    font-family: 'Inter', sans-serif;
-}
-
-/* Container chính 1200px */
-.news-container {
-    max-width: 1200px;
-    margin: 60px auto;
-    padding: 0 20px;
-}
-
-/* Header Section */
-.news-container h2 {
-    font-size: 36px !important;
-    font-weight: 800;
-    color: var(--text-title);
-    letter-spacing: -1px;
-    background: linear-gradient(90deg, var(--primary), var(--purple));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/* Search Box ấn tượng */
-.search-box {
-    width: 100%;
-    max-width: 600px;
-    padding: 16px 24px;
-    border-radius: 12px;
-    border: 2px solid #e2e8f0;
-    background: var(--card-bg);
-    font-size: 16px;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    margin-bottom: 40px;
-    outline: none;
-}
-
-.search-box:focus {
-    border-color: var(--primary);
-    box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.2);
-    transform: translateY(-2px);
-}
-
-/* Lưới tin tức 3 cột */
-.news-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 30px;
-}
-
-/* News Item Card */
-.news-item {
-    background: var(--card-bg);
-    border-radius: 20px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border: 1px solid #f1f5f9;
-    position: relative;
-}
-
-.news-item:hover {
-    transform: translateY(-12px);
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
-}
-
-/* Image Container */
-.news-img-container {
-    width: 100%;
-    height: 220px;
-    overflow: hidden;
-    position: relative;
-}
-
-.news-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.6s ease;
-}
-
-.news-item:hover .news-img {
-    transform: scale(1.1);
-}
-
-/* Content Area */
-.news-content {
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
-/* Tags */
-.tag {
-    padding: 5px 12px;
-    border-radius: 6px;
-    font-size: 11px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #fff;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-
-.tag-danger { background: linear-gradient(135deg, #ef4444, #b91c1c); }
-.tag-warning { background: linear-gradient(135deg, #f59e0b, #d97706); }
-.tag-purple { background: linear-gradient(135deg, #8b5cf6, #6d28d9); }
-.tag-info { background: linear-gradient(135deg, #06b6d4, #0891b2); }
-
-/* Typography */
-.news-content h3 {
-    margin: 15px 0;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.4;
-}
-
-.news-content h3 a {
-    text-decoration: none;
-    color: var(--text-title);
-    transition: color 0.2s;
-}
-
-.news-content h3 a:hover {
-    color: var(--primary);
-}
-
-.news-content p {
-    color: var(--text-desc);
-    font-size: 15px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    height: 72px; /* Giữ các card đều nhau */
-}
-
-/* Nút chi tiết */
-.news-content a:last-child {
-    margin-top: auto;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--primary);
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    transition: gap 0.3s;
-}
-
-.news-content a:last-child:hover {
-    gap: 10px;
-}
-
-/* Hiệu ứng Loading */
-#newsFeed p {
-    grid-column: 1 / -1;
-    text-align: center;
-    padding: 50px;
-    color: var(--text-desc);
-    font-weight: 500;
-}
-</style>
-
 <body>
-          <div id="header"></div>
-          <main class="news-container">
-                    <h2 style="font-size: 28px; margin-bottom: 10px;">Trung tâm Cảnh báo</h2>
-                    <p style="color: #666; margin-bottom: 30px;">Cập nhật các thủ đoạn lừa đảo trực tuyến mới nhất để
-                              bảo vệ bản thân và gia đình.</p>
+    <div id="header"></div>
 
-                    <input type="text" id="searchInput" class="search-box"
-                              placeholder="Nhập từ khóa tìm kiếm thủ đoạn (ví dụ: OTP, Telegram, MoMo...)">
+    <main class="news-section">
+        <header class="news-header">
+            <h2 class="news-header__title">Trung tâm Cảnh báo</h2>
+            <p class="news-header__desc">Hệ thống giám sát và cập nhật liên tục các thủ đoạn lừa đảo trực tuyến mới nhất để bảo vệ bản thân và gia đình.</p>
+        </header>
 
-                    <div id="newsFeed" class="news-grid">
-                              <p>Đang tải dữ liệu tin tức...</p>
-                    </div>
-          </main>
-          <div id="footer"></div>
+        <div class="news-search">
+            <input type="text" id="searchInput" class="news-search__input" placeholder="Đang tải gợi ý...">
+        </div>
+
+        <div id="categoryFilter" class="news-filter">
+            </div>
+
+        <div id="newsFeed" class="news-grid">
+            <p style="grid-column: 1/-1; text-align: center; color: #64748b;">Đang tải dữ liệu tin tức...</p>
+        </div>
+
+        <div id="pagination" class="news-pagination"></div>
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="/js/layout.js"></script>
+    <script src="/js/news.js"></script>
 </body>
-<script src="/js/layout.js"></script>
-<script src="/js/search.js"></script>
-<script src="/js/news.js"></script>
 </html>
