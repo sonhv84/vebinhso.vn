@@ -24,40 +24,46 @@
 
 /* ================= SEARCH ================= */
 
+/* ================= SEARCH FIX ================= */
+
 .news-search {
-  position: relative;
+  position: relative; /* Bắt buộc để icon căn theo khung này */
   max-width: 700px;
-  margin-bottom: 25px;
+  margin: 0 auto 40px; /* Căn giữa toàn bộ thanh search */
 }
 
-/* Icon search SVG (ổn định, không phụ thuộc FA) */
+/* Icon kính lúp */
 .news-search::before {
   content: "";
   position: absolute;
   left: 20px;
   top: 50%;
-  transform: translateY(-50%);
-  width: 18px;
-  height: 18px;
+  transform: translateY(-50%); /* Căn giữa tuyệt đối theo chiều dọc */
+  width: 20px;
+  height: 20px;
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2394a3b8' viewBox='0 0 24 24'%3E%3Cpath d='M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z'/%3E%3C/svg%3E") no-repeat center;
   background-size: contain;
   pointer-events: none;
+  z-index: 10;
 }
 
-.news-search__input {
+.search-box {
   width: 100%;
-  padding: 16px 20px 16px 50px;
-  border-radius: 50px;
-  border: 2px solid var(--color-border);
+  padding: 16px 20px 16px 55px !important; /* Padding bên trái 55px để nhường chỗ cho icon */
   font-size: 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 50px;
   outline: none;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
-  transition: all var(--transition-speed) ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  display: block;
+  box-sizing: border-box; /* Đảm bảo padding không làm tràn khung */
 }
 
-.news-search__input:focus {
-  border-color: var(--color-primary);
+.search-box:focus {
+  border-color: #2563eb;
   box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
+  background-color: #fff;
 }
 
 /* ================= SEARCH CŨ (GIỮ NGUYÊN) ================= */
@@ -88,48 +94,100 @@
 
 /* ================= SKILL CARD ================= */
 
-.skill-item {
-  background: #ffffff;
-  border-radius: 15px;
-  overflow: hidden;
-  border: 1px solid #f0f0f0;
-  transition:
-    transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
-    box-shadow 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
+/* ================= NEWS CARD (FIXED) ================= */
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
 }
 
-.skill-item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-  border-color: #bbdefb;
+.news-card {
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #eef2f6;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
-.skill-thumb-container {
-  position: relative;
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
+.news-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    border-color: #3b82f6;
 }
 
-.skill-thumb {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease;
+.news-card__thumb-container {
+    position: relative;
+    padding-top: 56.25%; /* Tỉ lệ 16:9 */
+    overflow: hidden;
 }
 
-.skill-item:hover .skill-thumb {
-  transform: scale(1.1);
+.news-card__thumb {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
 }
 
-.skill-content {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
+.news-card:hover .news-card__thumb {
+    transform: scale(1.1);
+}
+
+.news-card__content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* Tag & Meta */
+.news-card__tag {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    width: fit-content;
+}
+
+/* Màu sắc cho từng loại tag (Khớp với tagClass trong JSON) */
+.tag-security { background: #e0f2fe; color: #0369a1; } /* Bảo mật */
+.tag-verify { background: #fef3c7; color: #92400e; }   /* Kiểm chứng */
+.tag-finance { background: #dcfce7; color: #166534; }  /* Tài chính */
+.tag-tech { background: #f3e8ff; color: #6b21a8; }     /* Công nghệ */
+
+.news-card__title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #1e293b;
+    line-height: 1.4;
+}
+
+.news-card__desc {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.news-card__btn-detail {
+    margin-top: auto;
+    font-weight: 600;
+    color: #2563eb;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 /* ================= TAG ================= */

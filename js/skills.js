@@ -255,20 +255,21 @@ document.addEventListener("DOMContentLoaded", () => {
     // 6. EVENTS
     // ========================================
 
-    window.filterByLabel = (label) => {
+window.filterByLabel = (label) => {
+    currentLabel = label;
 
-        currentLabel = label;
+    // Cập nhật trạng thái Active của nút
+    document.querySelectorAll(".filter-btn").forEach(btn => {
+        if (btn.innerText.trim() === label) {
+            btn.classList.add("active");
+        } else {
+            btn.classList.remove("active");
+        }
+    });
 
-        document.querySelectorAll(".filter-btn")
-            .forEach(btn =>
-                btn.classList.toggle(
-                    "active",
-                    btn.innerText === label
-                )
-            );
-
-        applyFilterAndSearch();
-    };
+    // Reset về trang 1 khi lọc
+    applyFilterAndSearch();
+};
 
 
     window.changePage = (page) => {

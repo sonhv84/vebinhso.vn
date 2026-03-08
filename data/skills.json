@@ -1,136 +1,804 @@
 {
-          "SKILLS_DATA": [
+    "SKILLS_DATA": [
+        {
+            "id": 1,
+            "label": "Kỹ năng",
+            "tagClass": "tag-success",
+            "title": "24 hình thức lừa đảo phổ biến bạn nên biết để đề phòng",
+            "desc": "Tổng hợp các hình thức lừa đảo phổ biến theo cảnh báo của Cục An toàn thông tin.",
+            "time": "4 phút",
+            "img": "../assets/images/skills/skills-1-1.jpg",
+            "sapo": "Theo Cục An toàn thông tin, tình hình lừa đảo trực tuyến tại Việt Nam đang diễn biến phức tạp. Trong 6 tháng đầu năm 2023, số vụ lừa đảo trực tuyến tăng mạnh so với các giai đoạn trước. Dưới đây là 24 hình thức lừa đảo phổ biến mà người dùng internet cần đặc biệt cảnh giác.",
+            "content": [
+                {
+                "type": "heading",
+                "text": "Những hình thức lừa đảo phổ biến trên internet"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Theo tổng hợp từ Cục An toàn thông tin, các hình thức lừa đảo trực tuyến hiện nay rất đa dạng và liên tục thay đổi để đánh vào tâm lý người dùng. Các chiêu trò thường nhắm vào việc chiếm đoạt tiền, thông tin cá nhân hoặc tài khoản trực tuyến."
+                },
+
+                {
+                "type": "heading",
+                "text": "Nhóm lừa đảo giả mạo tổ chức, cơ quan"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Một số đối tượng giả mạo cơ quan nhà nước, doanh nghiệp hoặc tổ chức để tạo lòng tin với nạn nhân. Các hình thức phổ biến gồm: giả danh công an, viện kiểm sát hoặc tòa án; giả danh công ty tài chính; giả mạo trang thông tin điện tử của cơ quan, doanh nghiệp; giả mạo SMS Brandname để gửi tin nhắn lừa đảo."
+                },
+                {
+                "type": "heading",
+                "text": "Nhóm lừa đảo qua mạng xã hội và tài khoản cá nhân"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Một số hình thức lừa đảo phổ biến gồm: đánh cắp tài khoản mạng xã hội để nhắn tin vay tiền; đánh cắp Telegram OTP; phát tán link phishing; rải quảng cáo bẩn trên mạng xã hội; cung cấp dịch vụ lấy lại tài khoản Facebook giả mạo để chiếm đoạt thông tin."
+                },
+                {
+                "type": "heading",
+                "text": "Nhóm lừa đảo tài chính và đầu tư"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Các đối tượng thường dụ dỗ nạn nhân tham gia đầu tư tài chính với lợi nhuận cao hoặc yêu cầu chuyển tiền trước. Một số hình thức gồm: lừa đảo đầu tư chứng khoán, tiền ảo hoặc đa cấp; giả mạo biên lai chuyển tiền thành công; tuyển cộng tác viên online yêu cầu nộp tiền làm nhiệm vụ."
+                },
+                {
+                "type": "heading",
+                "text": "Nhóm lừa đảo lợi dụng tâm lý và hoàn cảnh cá nhân"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Một số thủ đoạn khai thác yếu tố cảm xúc hoặc tình huống khẩn cấp như: giả danh nhân viên y tế thông báo người thân đang cấp cứu; bẫy tình cảm để dụ chuyển tiền; lừa trúng thưởng; cung cấp số đánh đề; hoặc giả mạo thông tin về việc chuyển nhầm tiền vào tài khoản ngân hàng."
+                },
+
+                {
+                "type": "heading",
+                "text": "Một số hình thức lừa đảo khác cần cảnh giác"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Ngoài ra còn nhiều chiêu trò khác như: combo du lịch giá rẻ, tuyển người mẫu nhí, thông báo khóa SIM do chưa chuẩn hóa thuê bao, phát tán ứng dụng hoặc đường link quảng cáo cờ bạc, cá độ, tín dụng đen, hoặc dịch vụ lấy lại tiền sau khi bị lừa."
+                },
+
+                {
+                "type": "heading",
+                "text": "Khuyến cáo để phòng tránh lừa đảo"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Cơ quan chức năng khuyến cáo người dùng internet cần đặc biệt cẩn trọng khi nhận được các yêu cầu cung cấp thông tin hoặc chuyển tiền. Không đăng nhập vào đường link lạ, không cung cấp thông tin cá nhân hay tài khoản ngân hàng, không chuyển tiền để hoàn tất thủ tục vay hoặc mua đơn hàng, và tuyệt đối không chia sẻ mã OTP cho bất kỳ ai."
+                },
+
+                {
+                "type": "alert",
+                "level": "danger",
+                "text": "Không đăng nhập vào đường link lạ, không cung cấp thông tin cá nhân hoặc tài khoản ngân hàng và không chia sẻ mã OTP cho người khác."
+                },
+                {
+                    "type": "reference",
+                    "items": [
                     {
-                              "id": 1,
-                              "label": "Bảo mật",
-                              "tagClass": "tag-success",
-                              "title": "Thiết lập xác thực 2 lớp (2FA) toàn diện",
-                              "desc": "Hướng dẫn sử dụng App Authenticator thay thế cho SMS OTP để bảo vệ tài khoản.",
-                              "time": "5 phút đọc",
-                              "img": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800",
-                              "content": [
-                                        {
-                                                  "type": "heading",
-                                                  "text": "Tại sao không nên dùng OTP qua SMS?"
-                                        },
-                                        {
-                                                  "type": "paragraph",
-                                                  "text": "Tin nhắn SMS có thể bị chiếm quyền điều khiển qua kỹ thuật SIM Swap. Hacker có thể lừa nhà mạng cấp lại SIM của bạn để nhận mã OTP."
-                                        },
-                                        {
-                                                  "type": "alert",
-                                                  "level": "info",
-                                                  "text": "Hãy sử dụng Google Authenticator hoặc Microsoft Authenticator để tạo mã offline."
-                                        },
-                                        {
-                                                  "type": "quote",
-                                                  "text": "Mật khẩu là cửa trước, 2FA là lớp cửa sắt bảo vệ tài sản của bạn."
-                                        }
-                              ]
+                    "label": "Facebook Cổng không gian mạng quốc gia",
+                    "url": "https://www.facebook.com/share/p/1Di1d3C747/"
                     },
                     {
-                              "id": 2,
-                              "label": "Kiểm chứng",
-                              "tagClass": "tag-primary",
-                              "title": "Nhận biết Website giả mạo trong 10s",
-                              "desc": "Mẹo soi tên miền và chứng chỉ bảo mật SSL chỉ trong vài giây.",
-                              "time": "4 phút đọc",
-                              "img": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800",
-                              "content": [
-                                        {
-                                                  "type": "heading",
-                                                  "text": "Quy tắc soi tên miền"
-                                        },
-                                        {
-                                                  "type": "paragraph",
-                                                  "text": "Kẻ xấu thường thay chữ 'o' bằng số '0' hoặc chữ 'i' bằng chữ 'l'. Ví dụ: vietcombank.com.vn thành vletcombank.com.vn."
-                                        },
-                                        {
-                                                  "type": "alert",
-                                                  "level": "danger",
-                                                  "text": "Luôn kiểm tra biểu tượng ổ khóa trên thanh địa chỉ trình duyệt."
-                                        }
-                              ]
-                    },
-                    {
-                              "id": 3,
-                              "label": "Tài chính",
-                              "tagClass": "tag-warning",
-                              "title": "Cách soi Biên lai chuyển tiền giả",
-                              "desc": "Nhận biết bill chuyển khoản bị chỉnh sửa bằng phần mềm.",
-                              "time": "6 phút đọc",
-                              "img": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800",
-                              "content": []
-                    },
-                    {
-                              "id": 4,
-                              "label": "Thiết bị",
-                              "tagClass": "tag-purple",
-                              "title": "Gỡ mã độc trên Android",
-                              "desc": "Cách tìm và xóa các file .APK lạ chiếm quyền điều khiển.",
-                              "time": "8 phút đọc",
-                              "img": "https://images.unsplash.com/photo-1603899122634-f086ca5f5ddd?w=800",
-                              "content": []
-                    },
-                    {
-                              "id": 5,
-                              "label": "Ứng xử",
-                              "tagClass": "tag-info",
-                              "title": "Xử lý cuộc gọi hăm dọa",
-                              "desc": "Kỹ năng giữ bình tĩnh khi kẻ gian giả danh công an.",
-                              "time": "5 phút đọc",
-                              "img": "https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?w=800",
-                              "content": []
-                    },
-                    {
-                              "id": 6,
-                              "label": "Bảo mật",
-                              "tagClass": "tag-success",
-                              "title": "Quản lý mật khẩu an toàn",
-                              "desc": "Sử dụng Password Manager và quy tắc đặt mật khẩu phức tạp.",
-                              "time": "3 phút đọc",
-                              "img": "https://images.unsplash.com/photo-1633265485768-30691b225162?w=800",
-                              "content": []
-                    },
-                    {
-                              "id": 7,
-                              "label": "Công nghệ",
-                              "tagClass": "tag-dark",
-                              "title": "Nhận diện Deepfake Video Call",
-                              "desc": "Mẹo bắt bài AI khi gọi video lừa đảo.",
-                              "time": "4 phút đọc",
-                              "img": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800",
-                              "content": []
-                    },
-                    {
-                              "id": 8,
-                              "label": "Mua sắm",
-                              "tagClass": "tag-orange",
-                              "title": "Tránh bẫy Ship COD đơn hàng ma",
-                              "desc": "Quy tắc kiểm tra đơn hàng trước khi thanh toán.",
-                              "time": "5 phút đọc",
-                              "img": "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=800",
-                              "content": []
-                    },
-                    {
-                              "id": 9,
-                              "label": "Xử lý",
-                              "tagClass": "tag-danger",
-                              "title": "Quy trình khẩn cấp khi đã bị lừa",
-                              "desc": "4 bước thu hồi vốn và báo cáo cơ quan chức năng.",
-                              "time": "10 phút đọc",
-                              "img": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800",
-                              "content": []
-                    },
-                    {
-                              "id": 10,
-                              "label": "Tài chính",
-                              "tagClass": "tag-warning",
-                              "title": "Cảnh giác App vay tiền nhanh",
-                              "desc": "Nhận diện tín dụng đen núp bóng ứng dụng online.",
-                              "time": "7 phút đọc",
-                              "img": "https://images.unsplash.com/photo-1579621970795-87fbb3f563d7?w=800",
-                              "content": []
+                    "label": "Bộ Khoa học và Công nghệ",
+                    "url": "https://mst.gov.vn/24-hinh-thuc-lua-dao-tren-mang-nguoi-dan-can-canh-giac-197231114093217127.htm"
                     }
-          ]
+                    ]
+                }
+
+            ]
+        },
+        {
+            "id": 2,
+            "label": "Phòng tránh",
+            "tagClass": "tag-primary",
+            "title": "Sinh viên FPT Hà Nội cần biết: Cách xử lý khi gặp lừa đảo trên mạng",
+            "desc": "Nhà trường khuyến nghị sinh viên liên hệ ngay các kênh hỗ trợ chính thức khi gặp tình huống lừa đảo.",
+            "time": "3 phút",
+            "img": "../assets/images/skills/skills-2-1.jpg",
+            "sapo": "Gần đây, nhiều sinh viên bị các đối tượng xấu lợi dụng và lừa đảo thông qua nhiều hình thức như giả danh nhà trường, tuyển dụng ảo hoặc mạo danh bạn bè để vay tiền. Nếu gặp phải tình huống đáng ngờ, sinh viên cần bình tĩnh và liên hệ ngay với các kênh hỗ trợ chính thức để được trợ giúp kịp thời.",
+            "content": [
+                {
+                "type": "heading",
+                "text": "Các hình thức lừa đảo sinh viên thường gặp"
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Giả danh nhà trường hoặc cán bộ để yêu cầu cung cấp thông tin cá nhân.",
+                "Đăng tin tuyển dụng ảo nhằm yêu cầu sinh viên nộp phí hoặc cung cấp dữ liệu cá nhân.",
+                "Mạo danh bạn bè hoặc người quen trên mạng xã hội để vay tiền.",
+                "Gửi tin nhắn, email hoặc đường link lạ nhằm chiếm đoạt tài khoản."
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "Nếu gặp tình huống đáng ngờ, hãy bình tĩnh và liên hệ ngay các kênh hỗ trợ sau"
+                },
+
+                {
+                "type": "heading",
+                "text": "1. Phòng Công tác Sinh viên – Đại học FPT Hà Nội"
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Facebook: Phòng Công Tác Sinh Viên ĐH FPT",
+                "Email: sro.hn@fpt.edu.vn",
+                "Địa điểm: Phòng 101 – tòa nhà Delta, Đại học FPT cơ sở Hà Nội"
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "2. Phòng Dịch vụ Sinh viên – Đại học FPT Hà Nội"
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Số điện thoại: 02473081313",
+                "Email: dichvusinhvien@fe.edu.vn",
+                "Địa điểm: Phòng 102L – tòa nhà Alpha, Đại học FPT cơ sở Hà Nội"
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "3. Công an xã Thạch Hòa"
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Trực ban Công an xã: 02432.068.277",
+                "Trung tá Đỗ Tiến Lâm (Trưởng Công an xã) – 0983.444444",
+                "Thiếu tá Hồ Văn Quyết (Phó Trưởng Công an xã) – 0986.866.187",
+                "Đại úy Nguyễn Văn Thành (Phó Trưởng Công an xã) – 0823.068.222",
+                "Thượng úy Nguyễn Mạnh Hà (Cảnh sát khu vực Thôn 1) – 0865.396.593",
+                "Đại úy Phùng Văn Thạo (Cảnh sát khu vực Thôn 2) – 0919.339.183",
+                "Đại úy Vũ Đức Bình (Cảnh sát khu vực Thôn 3) – 0334.88.99.88",
+                "Thượng úy Nguyễn Hồng Đức (Cảnh sát khu vực Thôn 4) – 096.660.77.92",
+                "Thiếu tá Trần Xuân Dương (Cảnh sát khu vực Thôn 5) – 09819.333.68"
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "Những lưu ý quan trọng để tránh bị lừa đảo"
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Luôn xác minh thông tin từ các kênh liên lạc chính thức trước khi thực hiện bất kỳ giao dịch tài chính nào.",
+                "Không chuyển tiền hoặc cung cấp thông tin cá nhân cho các nguồn không rõ ràng.",
+                "Nếu nhận được tin nhắn, email hoặc cuộc gọi đáng ngờ, không phản hồi ngay mà hãy kiểm tra lại thông tin.",
+                "Báo cáo ngay cho Phòng Công tác Sinh viên hoặc cơ quan chức năng khi phát hiện dấu hiệu lừa đảo."
+                ]
+                },
+
+                {
+                "type": "alert",
+                "level": "danger",
+                "text": "Hãy luôn cảnh giác và xác minh thông tin từ các kênh chính thức của nhà trường trước khi thực hiện bất kỳ giao dịch nào."
+                },
+
+                {
+                "type": "reference",
+                "items": [
+                {
+                "label": "Facebook Phòng Công tác Sinh viên ĐH FPT",
+                "url": "https://www.facebook.com/CTSV.FU/posts/pfbid0hBQ8i7idBN2mu9VWG4DzvUFUDTXijpVtnNPnX7LvP2ab3USfNZcC1RkwbfrPJRSpl"
+                }
+                ]
+                }
+
+            ]
+        },
+        {
+            "id": 3,
+            "label": "Hướng dẫn",
+            "tagClass": "tag-warning",
+            "title": "Những cách phòng tránh và báo cáo lừa đảo",
+            "desc": "Hướng dẫn các biện pháp phòng tránh và cách báo cáo khi gặp phải các hình thức lừa đảo trực tuyến.",
+            "time": "5 phút",
+            "img": "../assets/images/skills/skills-3-1.jpg",
+            "sapo": "Tình trạng lừa đảo và phishing trên Internet tại Việt Nam ngày càng gia tăng. Trong bối cảnh chuyển đổi số và công nghệ phát triển mạnh, nhiều đối tượng xấu đã lợi dụng các nền tảng trực tuyến để thực hiện hành vi lừa đảo và chiếm đoạt tài sản. Dưới đây là một số cách phòng tránh và báo cáo khi gặp phải các hình thức lừa đảo trên không gian mạng.",
+            "content": [
+
+                {
+                "type": "heading",
+                "text": "1. Phòng tránh lừa đảo"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Khi truy cập vào các đường link nguy hiểm, trình duyệt hoặc phần mềm bảo mật có thể hiển thị cảnh báo để người dùng tránh truy cập vào các trang web lừa đảo."
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Các phần mềm bảo mật như Kaspersky, Avira, Avast, ESET, Sophos, Trend Micro hoặc Cyradar có thể phát hiện các website độc hại.",
+                "Các dịch vụ như Virustotal, OpenDNS, NextDNS hoặc FlashStart cũng hỗ trợ cảnh báo các trang web nguy hiểm."
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "Kích hoạt DNS bảo mật (DNS over HTTPS) trên Google Chrome"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Để tăng cường khả năng bảo vệ khi truy cập Internet, người dùng có thể bật DNS over HTTPS (DoH) trên trình duyệt Chrome và sử dụng OpenDNS miễn phí."
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Bước 1: Sao chép và dán địa chỉ chrome://settings/security vào thanh địa chỉ của Chrome.",
+                "Bước 2: Cuộn xuống phần Nâng cao và bật tùy chọn Sử dụng hệ thống tên miền (DNS) bảo mật.",
+                "Bước 3: Chọn nhà cung cấp DNS là OpenDNS.",
+                "Bước 4: Truy cập welcome.opendns.com để kiểm tra. Nếu xuất hiện dấu tick màu cam nghĩa là bạn đã cài đặt thành công."
+                ]
+                },
+                {
+                "type": "image",
+                "src": "../assets/images/skills/skills-3-2.png",
+                "caption": "Thông báo cho biết bạn đã cài đặt thành công OpenDNS"
+                },
+                {
+                "type": "heading",
+                "text": "Một số công cụ miễn phí giúp nhận biết lừa đảo"
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Bộ công cụ kiểm tra và học kiến thức phòng chống lừa đảo trực tuyến của Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC) tại https://khonggianmang.vn/",
+                "Công cụ kiểm tra rò rỉ dữ liệu Have I Been Pwned tại https://haveibeenpwned.com/",
+                "Danh sách website lừa đảo được cập nhật thường xuyên bởi Tín Nhiệm Mạng tại https://tinnhiemmang.vn/website-lua-dao",
+                "Các bản tin cảnh báo an toàn thông tin và cẩm nang an toàn thông tin do NCSC phát hành."
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "2. Báo cáo lừa đảo"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Nếu bạn bị lừa gạt hoặc phát hiện hành vi lừa đảo trên Internet, hãy nhanh chóng thực hiện một trong các biện pháp sau để được hỗ trợ và xử lý kịp thời."
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Thông báo đến cơ quan công an cấp quận hoặc huyện nơi bạn sinh sống.",
+                "Báo cáo qua đường dây nóng của Phòng An ninh mạng và phòng chống tội phạm sử dụng công nghệ cao: 069.219.4053.",
+                "Đối với người dân tại TP.HCM: 0838.640.508.",
+                "Đối với người dân tại Hà Nội: gọi 113 hoặc liên hệ fanpage Công an thành phố Hà Nội."
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "Cách báo cáo website, email hoặc tin nhắn lừa đảo"
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Truy cập trang cảnh báo an toàn thông tin Việt Nam tại canhbao.ncsc.gov.vn",
+                "Chọn mục Gửi báo cáo lừa đảo mạng hoặc loại báo cáo phù hợp.",
+                "Điền thông tin theo mẫu và gửi báo cáo.",
+                "Hệ thống sẽ tiếp nhận, xác minh và xử lý thông tin."
+                ]
+                },                
+
+                {
+                "type": "heading",
+                "text": "Báo cáo tin giả và nội dung sai sự thật"
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Truy cập tingia.gov.vn/tiep-nhan-phan-anh",
+                "Điền đầy đủ thông tin theo biểu mẫu.",
+                "Liên hệ đường dây nóng 18008108 nếu cần hỗ trợ."
+                ]
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Ngoài ra, nếu bạn bị làm phiền bởi các cuộc gọi hoặc tin nhắn rác, bạn có thể báo cáo các số điện thoại đó theo hướng dẫn của cơ quan quản lý để góp phần hạn chế các hành vi lừa đảo."
+                },
+                {
+                "type": "heading",
+                "text": "Báo cáo nhanh qua hệ thống cảnh báo của website"
+                },
+                {
+                "type": "paragraph",
+                "text": "Đối với sinh viên ĐH FPT, nếu bạn phát hiện website, tin nhắn, email hoặc tài khoản đáng ngờ, bạn cũng có thể gửi báo cáo trực tiếp thông qua chức năng \"BÁO CÁO LỪA ĐẢO\" trên website. Hệ thống sẽ tiếp nhận thông tin và ghi nhận các trường hợp nghi ngờ để phục vụ việc cảnh báo cho cộng đồng người dùng."
+                },
+                {
+                "type": "list",
+                "items": [
+                "Nhấn nút \"BÁO CÁO LỪA ĐẢO\" trên trang.",
+                "Điền thông tin về đường link, nội dung tin nhắn hoặc hình thức lừa đảo mà bạn gặp phải.",
+                "Cung cấp thêm ảnh chụp màn hình hoặc bằng chứng nếu có.",
+                "Gửi báo cáo để hệ thống ghi nhận và hỗ trợ cảnh báo cho cộng đồng."
+                ]
+                },
+                {
+                "type": "alert",
+                "level": "danger",
+                "text": "Khi phát hiện website, email hoặc tin nhắn đáng ngờ, không nên cung cấp thông tin cá nhân hoặc thực hiện giao dịch trước khi xác minh độ tin cậy."
+                },
+                {
+                "type": "reference",
+                "items": [
+                {
+                "label": "Facebook Trung tâm Giám sát an toàn không gian mạng quốc gia (NCSC)",
+                "url": "https://www.facebook.com/govSOC"
+                }
+                ]
+                }
+
+            ]
+        },
+        {
+            "id": 4,
+            "label": "Kỹ năng",
+            "tagClass": "tag-success",
+            "title": "Cẩm nang 3 bước vàng để không bị mắc bẫy lừa đảo qua mạng",
+            "desc": "Quy tắc 3 bước Dừng lại - Kiểm tra - Bảo vệ giúp bạn tránh rơi vào các chiêu trò lừa đảo trên Internet.",
+            "time": "4 phút",
+            "img": "../assets/images/skills/skills-4-1.png",
+            "sapo": "Ngày nay, kẻ lừa đảo có rất nhiều cách để nhắm vào tiền và thông tin cá nhân của người dùng Internet. Chúng có thể giả danh công an, nhân viên ngân hàng hoặc thậm chí là người thân gặp nạn. Để bảo vệ bản thân trước những chiêu trò này, hãy ghi nhớ quy tắc 3 bước: Dừng lại - Kiểm tra - Bảo vệ.",
+            "content": [
+
+                {
+                "type": "heading",
+                "text": "1. DỪNG LẠI: Đừng vội tin, đừng vội làm theo"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Kẻ lừa đảo thường tạo cảm giác cấp bách để ép nạn nhân hành động ngay lập tức, ví dụ như giả danh công an đe dọa lệnh bắt hoặc thông báo người thân đang gặp nguy hiểm. Khi nhận được cuộc gọi lạ thông báo nợ cước điện thoại, vi phạm giao thông hoặc trúng thưởng lớn, cảm giác lo lắng hoặc phấn khích có thể khiến chúng ta mất cảnh giác."
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Tuyệt đối không cung cấp thông tin cá nhân như số CCCD, tài khoản ngân hàng khi chưa xác minh rõ ràng.",
+                "Không chuyển tiền cho bất kỳ ai chỉ dựa trên yêu cầu qua điện thoại hoặc tin nhắn.",
+                "Ghi nhớ rằng các cơ quan chức năng và ngân hàng tại Việt Nam không yêu cầu người dân chuyển tiền qua điện thoại để phục vụ điều tra hoặc xác minh."
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "2. KIỂM TRA: Đâu là thật, đâu là giả?"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Các đối tượng lừa đảo ngày nay có thể giả danh rất tinh vi. Trước khi làm bất cứ điều gì, hãy tự hỏi: thông tin này có thực sự đáng tin hay không."
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Không nhấp vào các đường link lạ trong tin nhắn SMS, Zalo hoặc Messenger.",
+                "Nếu nhận được cuộc gọi tự xưng là từ ngân hàng hoặc doanh nghiệp, hãy chủ động cúp máy và gọi lại vào hotline chính thức của đơn vị đó.",
+                "Nếu cảm thấy nghi ngờ, hãy nói \"Không\" và kết thúc cuộc gọi hoặc xóa tin nhắn ngay lập tức.",
+                "Có thể sử dụng các công cụ kiểm tra độ tin cậy của website hoặc các dịch vụ hỗ trợ để xác minh thông tin."
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "3. BẢO VỆ: Hành động ngay khi thấy nghi ngờ"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Nếu đã lỡ cung cấp thông tin hoặc chuyển tiền cho đối tượng lừa đảo, việc hành động nhanh chóng có thể giúp giảm thiểu thiệt hại."
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Liên hệ ngay với ngân hàng để yêu cầu khóa tài khoản, khóa thẻ hoặc tạm dừng giao dịch khẩn cấp nếu đã cung cấp mã OTP hoặc chuyển tiền.",
+                "Trình báo với cơ quan công an địa phương gần nhất để được hỗ trợ và xử lý theo quy định pháp luật.",
+                "Lưu lại các bằng chứng như số điện thoại, số tài khoản, tin nhắn hoặc đường link liên quan đến hành vi lừa đảo."
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "Chia sẻ và báo cáo để giúp cộng đồng"
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Báo cáo các website, số điện thoại hoặc tài khoản nghi ngờ lừa đảo để giúp hệ thống cảnh báo sớm.",
+                "Chia sẻ thông tin về các chiêu trò lừa đảo với bạn bè và người thân để mọi người cùng cảnh giác."
+                ]
+                },
+
+                {
+                "type": "alert",
+                "level": "warning",
+                "text": "Khi gặp tình huống đáng ngờ trên Internet, hãy nhớ quy tắc 3 bước: Dừng lại - Kiểm tra - Bảo vệ trước khi thực hiện bất kỳ hành động nào."
+                }
+
+            ]
+        },
+        {
+            "id": 5,
+            "label": "Hướng dẫn",
+            "tagClass": "tag-warning",
+            "title": "Cách nhận biết trang web lừa đảo",
+            "desc": "Những dấu hiệu phổ biến giúp người dùng nhận diện các website giả mạo hoặc lừa đảo trên Internet.",
+            "time": "5 phút",
+            "img": "../assets/images/skills/skills-5-1.jpg",
+            "sapo": "Các trang web lừa đảo ngày càng tinh vi và có thể đánh cắp thông tin cá nhân hoặc tài sản của người dùng. Việc nhận biết các dấu hiệu đáng ngờ trên website sẽ giúp bạn tránh trở thành nạn nhân của các hình thức lừa đảo trực tuyến.",
+            "content": [
+
+                {
+                "type": "heading",
+                "text": "1. Cách nhận biết trang web lừa đảo nhanh qua đường dẫn link độc hại"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Đầu tiên, mọi người hãy kiểm tra lại địa chỉ web. Đây là phương pháp nhanh chóng nhất để phát hiện website lừa đảo."
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Cảnh giác với các đường dẫn có lỗi chính tả, sai khác hoặc thay thế ký tự gần giống nhau (ví dụ: chữ \"l\" thay bằng \"1\"). Ví dụ: shopeepv.com, fptshopvn.com",
+                "Tên miền có tiền tố hoặc hậu tố sử dụng ký tự lạ. Ví dụ: https://suamaylanh.dien-may-xanh.net",
+                "Tên miền phụ cố bắt chước tên miền của một trang hợp pháp. Ví dụ: https://shopee.sukientriankhachhang2021.com/ (trong đó shopee chỉ là tên miền phụ).",
+                "Các đuôi domain phổ biến như .com, .org, .gov, .edu thường có độ tin cậy cao hơn nhưng vẫn cần kiểm tra kỹ. Các top-level domain ít phổ biến như .info, .asia, .vip, .tk, .xyz thường có độ tin cậy thấp. Ví dụ: https://www.shoppe8.vip hoặc https://vngame.xyz.",
+                "Tên miền mới đăng ký hoặc có tuổi domain thấp cũng có thể đáng nghi. Bạn có thể kiểm tra thông tin tên miền tại https://who.is/",
+                "Cảnh giác với tên miền quốc tế (IDN) sử dụng ký tự đặc biệt để đánh lừa người dùng.Ví dụ: fàcebook.com (domain thật: xn--fcebook-8va.com).",
+                "Cẩn trọng với các link rút gọn như bitly.com, cutt.ly, shorturl.at."
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "2. Cách nhận biết trang web lừa đảo qua giao diện trang web"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Hãy quan sát kỹ giao diện của trang web. Các website hợp pháp thường có giao diện chuyên nghiệp và tương thích tốt trên nhiều thiết bị."
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Kiểm tra logo, hình ảnh và màu sắc thương hiệu có đúng chuẩn hay không.",
+                "Chú ý các chi tiết sai lệch, hình ảnh lỗi thời hoặc không đúng nhận diện thương hiệu.",
+                "Một website sử dụng hình ảnh không đúng quy chuẩn thương hiệu có thể là dấu hiệu của trang web giả mạo."
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "3. Cách nhận biết trang web lừa đảo dựa vào nội dung trên web"
+                },
+                {
+                "type": "paragraph",
+                "text": "Thông tin đơn vị chủ quản website không chính xác:"
+                },
+                {
+                "type": "list",
+                "items": [
+                    "Ví dụ, website giả mạo có thể sử dụng đúng tên doanh nghiệp nhưng cung cấp số tổng đài hoặc địa chỉ không có thực.",
+                    "Ở Việt Nam các bạn có thể tra thông tin công ty tại: tratencongty.com",
+                    "Nếu bạn thấy biểu tượng của Bộ Công Thương trên trang web mà bạn lo lắng, hãy thử nhấp vào biểu tượng đó!",
+                    "Nếu bạn thấy rằng chức năng này không hoạt động, hãy truy cập “Hệ thống quản lý thương mại điện tử” thuộc “Bộ Công Thương” tại online.gov.vn và kiểm tra xem họ có phải là người dùng con dấu tin cậy được chứng nhận hay không."
+                ]
+                },
+                {
+                "type": "paragraph",
+                "text": "Nội dung chứa lỗi chính tả:"
+                },
+                {
+                "type": "list",
+                "items": [
+                    "Nguyên nhân là do các trang web giả mạo thường không kiểm duyệt kỹ nội dung.",
+                    "Hoặc, các trang này được tạo bởi kẻ xấu ở nước ngoài mà họ không thành thạo ngôn ngữ được sử dụng để lừa đảo."
+                ]
+                },
+                {
+                "type": "paragraph",
+                "text": "Chú ý các liên kết đến các trang mạng xã hội của một trang web:"
+                },
+                {
+                "type": "list",
+                "items": [
+                    "Các nút liên kết mạng xã hội có thể dẫn đến trang chủ của trang web, một hồ sơ trống hoặc không ở đâu cả.",
+                    "Thông thường, nếu trang web là lừa đảo, người dùng bị lừa thường sẽ công khai lên tiếng bình luận sẽ giúp cho bạn nhận biết!",
+                    "Tuy nhiên cũng nên cẩn trọng với những comment/bình luận/đánh giá mua hàng giả mạo mà bọn lừa đảo đã tạo ra bằng cách dùng nick ảo."
+                ]
+                },    
+                {
+                "type": "paragraph",
+                "text": "Bạn có thấy ‘https’ ở phía trước địa chỉ của trang web và có biểu tượng ‘khóa’ hay không?"
+                },
+                {
+                "type": "list",
+                "items": [
+                    "Trong trường hợp này, giao tiếp giữa trang web và trình duyệt của bạn được mã hóa, giúp trang web an toàn hơn một chút khi sử dụng.",
+                    "Điều này không thể đảm bảo rằng trang web không phải là giả mạo. Vì thực tế, chi phí thêm chứng chỉ SSL (những gì bạn cần để bảo mật thông tin) rất rẻ hoặc đôi khi kẻ xấu có thể sử dụng SSL miễn phí."
+                ]
+                },  
+                {
+                "type": "paragraph",
+                "text": "Trang web có đòi hỏi thông tin nhạy cảm không?"
+                },
+                {
+                "type": "list",
+                "items": [
+                    "Nếu một trang web mà đòi hỏi thông tin nhạy cảm như: ngày sinh, số chứng thư, căn cước công dân…Hay đòi đăng tải những hình ảnh của giấy tờ tùy thân lên trang web của họ. Cần phải dừng lại và suy nghĩ tại sao họ cần những thông tin này.",
+                    "Luôn cẩn trọng đồng thời với những trang web không chính thống mà họ đòi hỏi ngay là phải đăng nhập thông tin cá nhân Facebook, Google hay thông tin tài khoản ngân hàng để thực hiện những bước tiếp theo. Kẻ xấu luôn lợi dụng lòng tham, sư ngây thơ và lòng tin của bạn đã lấy cắp thông tin."
+                ]
+                }, 
+                {
+                "type": "paragraph",
+                "text": "Kiểm tra đánh giá từ các nguồn độc lập:"
+                },
+                {
+                "type": "list",
+                "items": [
+                    "Nhiều trang web bán hàng thường hiển thị các đánh giá hoặc phản hồi từ người dùng. Tuy nhiên, những đánh giá này có thể bị chỉnh sửa, xóa hoặc thậm chí được tạo ra giả mạo để tăng độ tin cậy cho website. Vì vậy, không nên chỉ dựa vào phần đánh giá hiển thị ngay trên trang web.",
+                    "Thay vào đó, hãy kiểm tra đánh giá từ các nguồn độc lập bên ngoài. Các dịch vụ như Scamadviser (https://www.scamadviser.com/) cho phép người dùng tra cứu mức độ uy tín của website dựa trên nhiều yếu tố như tuổi tên miền, thông tin đăng ký, lịch sử hoạt động và phản hồi từ cộng đồng. Việc tham khảo các nguồn đánh giá độc lập sẽ giúp bạn có cái nhìn khách quan hơn trước khi thực hiện giao dịch hoặc cung cấp thông tin cá nhân."
+                ]
+                }, 
+                {
+                "type": "image",
+                "src": "../assets/images/skills/skills-5-2.png",
+                "caption": "Scamadviser.com là một trang web uy tín đưa ra đánh giá về độ an toàn của các trang web trên thế giới."
+                },   
+
+                {
+                "type": "heading",
+                "text": "4. Cách nhận biết trang web lừa đảo qua những thông báo trên web"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Hãy cảnh giác với các thông báo giật gân trên website vì nhiều trang web lừa đảo thường sử dụng các thông tin gây hoang mang hoặc quá hấp dẫn để dụ người dùng cung cấp dữ liệu."
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Các thông báo như trúng thưởng, khuyến mãi lớn hoặc quà tặng miễn phí.",
+                "Thông báo yêu cầu nhập thông tin tài khoản, mật khẩu hoặc số thẻ tín dụng để xác minh.",
+                "Các lời mời tải phần mềm khi truy cập website lạ.",
+                "Các thông báo cho rằng thiết bị của bạn đã bị nhiễm virus và yêu cầu tải phần mềm để xử lý."
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "Những vấn đề đáng quan tâm khác gần đây"
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Các trang web lừa đảo có thể chạy quảng cáo trên mạng xã hội hoặc Google để thu hút nạn nhân.",
+                "Các video quảng cáo trên Youtube có thể dẫn người dùng tới các trang web giả mạo.",
+                "Một số website dụ người dùng mua vật phẩm game giá rẻ hoặc cung cấp mật khẩu tài khoản để nhận ưu đãi.",
+                "Khi đăng nhập vào các trang web giả mạo, người dùng có thể bị đánh cắp tài khoản Facebook, email, tài khoản game hoặc tài khoản ngân hàng.",
+                "Các đối tượng có thể tạo website lừa đảo rất nhanh bằng mã nguồn mở, dịch vụ hosting giá rẻ hoặc nền tảng tạo phishing website."
+                ]
+                },
+
+                {
+                "type": "alert",
+                "level": "danger",
+                "text": "Nếu bạn vẫn còn nghi ngờ về một trang web, không nên thực hiện thanh toán hoặc cung cấp thông tin cá nhân."
+                }
+
+            ]
+        },
+        {
+            "id": 6,
+            "label": "Kỹ năng",
+            "tagClass": "tag-success",
+            "title": "Hướng dẫn nhận biết tin giả, thông tin xấu độc, lệch chuẩn",
+            "desc": "Cách nhận diện tin giả và nội dung xấu độc trên Internet thông qua bộ câu hỏi kiểm chứng và quy trình xử lý khi gặp thông tin đáng ngờ.",
+            "time": "4 phút",
+            "img": "../assets/images/skills/skills-6-1.png",
+            "sapo": "Trên mạng Internet, bên cạnh những thông tin hữu ích là vô số tin giả (Fake news), tin đồn thất thiệt và nội dung độc hại. Để giữ cho mình một cái đầu lạnh, hãy áp dụng “Bộ 6 câu hỏi kiểm chứng” trước khi quyết định tin hoặc chia sẻ bất kỳ thông tin nào.",
+            "content": [
+
+                {
+                "type": "heading",
+                "text": "Bộ 6 câu hỏi kiểm chứng thông tin"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Trước khi tin hoặc chia sẻ một thông tin trên mạng xã hội, hãy tự đặt cho mình một số câu hỏi kiểm chứng để đánh giá độ tin cậy của thông tin đó."
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Tin này xuất phát từ đâu? Là báo chí chính thống hay chỉ là một trang web lạ. Cảnh giác với các trang có tên giật gân như: \"Sự thật chấn động\", \"Tin nóng 247\", \"Bí mật bật mí\".",
+                "Tác giả của bài viết là ai? Bài viết có ghi rõ tên phóng viên, nguồn tin hay chỉ ghi chung chung như \"Nguồn: Internet\" hoặc \"Sưu tầm\".",
+                "Tiêu đề có cố tình gây sốc hoặc kích động cảm xúc không? Những từ như \"Rùng mình\", \"Cấp báo\", \"Không xem sẽ hối hận\" thường được dùng để thu hút người đọc.",
+                "Hình ảnh hoặc video có hợp lý với nội dung hay không? Nhiều tin giả sử dụng hình ảnh cũ hoặc video từ sự kiện khác để minh họa.",
+                "Có nguồn tin uy tín nào khác đưa tin về sự việc này không? Nếu một sự việc lớn nhưng không xuất hiện trên các báo chính thống thì cần đặt dấu hỏi.",
+                "Người đăng bài là ai? Tài khoản mới lập, ít bạn bè, không có thông tin cá nhân rõ ràng có thể là tài khoản giả mạo."
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "Nhận diện nội dung xấu độc cần tránh xa"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Ngoài tin giả, trên Internet còn tồn tại nhiều nội dung xấu độc có thể gây ảnh hưởng tiêu cực tới cộng đồng và người dùng mạng."
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Nội dung xuyên tạc, bôi nhọ cá nhân, tổ chức hoặc gây chia rẽ xã hội.",
+                "Thông tin kích động bạo lực, cổ vũ hành vi thù hận hoặc trả thù.",
+                "Các nội dung liên quan đến cờ bạc, cá độ, lô đề hoặc quảng cáo tệ nạn xã hội.",
+                "Các bài viết tuyên truyền mê tín dị đoan, bán bùa chú hoặc lợi dụng tâm linh để trục lợi.",
+                "Các nhóm kín, hội nhóm kêu gọi tham gia đầu tư bí mật hoặc yêu cầu đóng phí để nhận \"bí kíp làm giàu\"."
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "Quy trình 3 bước xử lý khi gặp tin xấu"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Khi gặp các bài viết chứa tin giả hoặc nội dung xấu độc trên mạng xã hội, nhiều người thường phản ứng bằng cách tranh cãi hoặc chửi bới trong phần bình luận. Tuy nhiên điều này đôi khi khiến nội dung đó lan truyền mạnh hơn."
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "KHÔNG TƯƠNG TÁC: Không bấm Like, không Share và không tham gia tranh luận dưới bài viết.",
+                "BÁO CÁO: Sử dụng chức năng Report của nền tảng để báo cáo nội dung vi phạm.",
+                "CHẶN: Nếu tài khoản hoặc trang đó thường xuyên đăng tin giả, hãy chặn (Block) để không tiếp tục nhìn thấy nội dung từ họ."
+                ]
+                },
+
+                {
+                "type": "alert",
+                "level": "warning",
+                "text": "Trước khi tin hoặc chia sẻ bất kỳ thông tin nào trên Internet, hãy dành vài phút để kiểm tra nguồn tin và xác minh thông tin."
+                }
+
+            ]
+        },
+        {
+            "id": 7,
+            "label": "Phòng tránh",
+            "tagClass": "tag-primary",
+            "title": "Tự bảo vệ mình trước các rủi ro lộ lọt dữ liệu cá nhân",
+            "desc": "Các biện pháp giúp người dùng giảm rủi ro lộ lọt dữ liệu cá nhân khi sử dụng các công cụ AI và ứng dụng trực tuyến.",
+            "time": "4 phút",
+            "img": "../assets/images/skills/skills-7-1.webp",
+            "sapo": "Làm thế nào để bảo vệ dữ liệu cá nhân trong kỷ nguyên AI? Dù AI ngày càng khó kiểm soát, người dùng vẫn có thể giảm rủi ro bằng các biện pháp chủ động.",
+            "content": [
+
+                {
+                "type": "heading",
+                "text": "Không cung cấp ảnh, video, giọng nói cho các trend AI"
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Không dùng trend AI yêu cầu chụp chân dung hoặc ghi âm giọng nói, đặc biệt là các app chuyển đổi khuôn mặt theo nhiều kiểu khác nhau theo trend như “phiên bản hoạt hình”, “già đi hoặc trẻ đi”…",
+                "Chỉ sử dụng ứng dụng có uy tín, minh bạch, rõ ràng về cách lưu trữ dữ liệu.",
+                "Nếu ứng dụng yêu cầu quyền truy cập camera + thư viện ảnh mà không cần thiết, hãy tắt ngay."
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "Không đưa dữ liệu nhạy cảm vào chatbot và các công cụ AI"
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Dù dùng ChatGPT, Claude hay bất kỳ chatbot nào, tuyệt đối không cung cấp những dữ liệu nhạy cảm của cá nhân và tổ chức như"
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Thông tin định danh: CCCD, hộ khẩu, thông tin ngân hàng, số điện thoại cá nhân, địa chỉ nhà.",
+                "Thông tin đời sống cá nhân: Thói quen chi tiêu, lịch trình, hay dữ liệu tài chính cá nhân.",
+                "Dữ liệu nội bộ, bí mật kinh doanh: Hợp đồng, thông tin khách hàng, sao kê, tài liệu pháp lý, ảnh giấy tờ."
+                ]
+                },
+
+                {
+                "type": "paragraph",
+                "text": "Nếu phải dùng AI, hãy luôn làm mờ, ẩn danh, hoặc thay đổi toàn bộ dữ liệu nhạy cảm."
+                },
+
+                {
+                "type": "heading",
+                "text": "Kiểm tra và giới hạn quyền truy cập ứng dụng"
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Đọc kỹ phần Quyền riêng tư trước khi cài đặt ứng dụng.",
+                "Tắt quyền truy cập camera/micro/vị trí với các ứng dụng không cần thiết.",
+                "Chỉ cấp quyền tối thiểu cần thiết cho ứng dụng (ví dụ: App chỉnh ảnh chỉ cần quyền truy cập vào những ảnh được chọn, không phải toàn bộ thư viện).",
+                "Xóa các ứng dụng yêu cầu quyền không hợp lý (ví dụ: đèn pin hay máy tính AI cần quyền truy cập vào danh bạ hay vị trí).",
+                "Không đăng nhập bằng tài khoản Google/Facebook cho những ứng dụng lạ, không đáng cậy.",
+                "Định kỳ xoá cookie và kiểm tra quyền ứng dụng trên điện thoại."
+                ]
+                },
+
+                {
+                "type": "heading",
+                "text": "Kích hoạt bảo mật đa lớp (2FA) cho mọi tài khoản quan trọng"
+                },
+
+                {
+                "type": "list",
+                "items": [
+                "Email, Facebook, ngân hàng, ví điện tử… đều cần 2FA.",
+                "Ngay cả khi dữ liệu rò rỉ, lớp bảo vệ phụ vẫn ngăn chặn phần lớn tấn công."
+                ]
+                },
+
+                {
+                "type": "alert",
+                "level": "warning",
+                "text": "Luôn cẩn trọng với dữ liệu cá nhân khi sử dụng các ứng dụng và công cụ AI. Việc hạn chế chia sẻ thông tin nhạy cảm và kiểm soát quyền truy cập ứng dụng là bước quan trọng để giảm thiểu rủi ro lộ lọt dữ liệu."
+                }
+
+            ]
+        }
+
+       
+    ]
 }
