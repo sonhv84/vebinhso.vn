@@ -175,6 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         if (currentPage < totalPages) html += `<button class="news-pagination__btn" onclick="changePage(${currentPage + 1})">→</button>`;
         
+        
         paginationContainer.innerHTML = html;
     }
 
