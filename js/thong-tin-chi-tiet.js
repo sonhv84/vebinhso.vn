@@ -78,6 +78,16 @@ async function loadContent() {
                                 </figure>`;
           break;
 
+                                  case "list":
+                            const listItems = block.items
+                                .map(item => `<li style="margin-bottom:10px; line-height:1.7;">${item}</li>`)
+                                .join('');
+
+                            html += `
+                            <ul style="margin:25px 0 35px 20px; padding-left:15px;">
+                                ${listItems}
+                            </ul>`;
+                        break;
         case "reference":
           const refLinks = block.items
             .map(
