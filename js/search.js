@@ -170,23 +170,23 @@ function handleCheck() {
     console.log("Links:", BLACKLIST.links.length);
 
 
-    if (isScam) {
+if (isScam) {
 
-      area.innerHTML = `
-        <div class="result-card danger">
-            <i class="fas fa-exclamation-triangle"></i>
-            <span>CẢNH BÁO: ${label} này nằm trong danh sách lừa đảo!</span>
-        </div>`;
+  area.innerHTML = `
+    <div class="result-card danger">
+        <i class="fas fa-exclamation-triangle"></i>
+        <span>CẢNH BÁO: ${label} này đã nhận được nhiều báo cáo nghi ngờ lừa đảo. Hãy thận trọng khi liên hệ.</span>
+    </div>`;
 
-    } else {
+} else {
 
-      area.innerHTML = `
-        <div class="result-card success">
-            <i class="fas fa-shield-check"></i>
-            <span>AN TOÀN: ${label} này chưa bị báo cáo xấu.</span>
-        </div>`;
+  area.innerHTML = `
+    <div class="result-card success">
+        <i class="fas fa-shield-check"></i>
+        <span>CHƯA CÓ CẢNH BÁO: ${label} này hiện chưa có báo cáo tiêu cực từ người dùng.</span>
+    </div>`;
 
-    }
+}
 
   }, 600);
 }
